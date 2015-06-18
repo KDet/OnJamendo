@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="098a4307-97b9-4403-90b0-f2808c2d55cf" name="OnJamendoComponentDiagram" linkedPackageId="5eccd53c-5149-43b8-86d0-b45711e45ac5" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+  <ownedCommentsInternal>
+    <comment Id="fd19a99b-4505-4f38-8833-63cc153d7046">
+      <elementDefinition Id="b1c8c8d6-78c0-4d38-9c2d-a91d71833a26" />
+      <body>Navigation system</body>
+    </comment>
+  </ownedCommentsInternal>
+  <packagedElements>
+    <componentModelHasComponents>
+      <component Id="63a87f96-a0ae-4c72-9d19-77268837dfe3" name="OnJamendo UI" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="637f889a-9631-42c3-8b45-7da4ec80761b" />
+        <ownedAttributesInternal>
+          <part Id="bd42ea45-fceb-445b-b718-4707ae2c11c7" name="Track Actions System" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="1f5f79f8-cf86-466d-999f-2a42f4187180" />
+            <targetNamedElementsInternal>
+              <connector Id="aa5b17e0-1151-499f-84ff-efb9aa7ea48e" isLeaf="false" isStatic="false">
+                <partMoniker Id="733f24e2-a4a8-43e4-83e0-3493cea8f3aa" LastKnownName="Navigation System" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="b82dab38-d7e6-4a8e-9e99-df11044d5edf">
+                      <elementDefinition Id="e0264956-fd94-4591-821e-aab094c2d16e" />
+                      <portWithPart>
+                        <requiredInterfaceMoniker Id="172cfecf-561f-48a4-97d2-fac3ed6311bd" LastKnownName="Port1" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="65c42c08-9d96-4477-95b2-87e4a2cdbaae">
+                      <elementDefinition Id="3a7973cc-29fd-4467-81ed-5dc7f83d316b" />
+                      <portWithPart>
+                        <providedInterfaceMoniker Id="bf3f07a5-80f5-4827-90a0-df49a8ec3786" LastKnownName="Port1" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+                <elementDefinition Id="e7e4a34f-f9fc-432a-9587-34b323a63a3a" />
+              </connector>
+              <connector Id="eb81d42f-4ee3-4af2-adfc-aa5554c30cb2" isLeaf="false" isStatic="false">
+                <partMoniker Id="733f24e2-a4a8-43e4-83e0-3493cea8f3aa" LastKnownName="Navigation System" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="de6cca49-4c29-44d4-9727-29484f707df5">
+                      <elementDefinition Id="00aa7b5d-55f8-46eb-923c-47416bb17120" />
+                      <portWithPart>
+                        <requiredInterfaceMoniker Id="69181f2f-9670-48fe-b873-5a8661a4deec" LastKnownName="Port2" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="706d8084-18cf-4ead-9a34-c5c3592db020">
+                      <elementDefinition Id="8d76f2bd-7ecc-4b14-9b2f-4952c2a6bec1" />
+                      <portWithPart>
+                        <providedInterfaceMoniker Id="bf3f07a5-80f5-4827-90a0-df49a8ec3786" LastKnownName="Port1" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+                <elementDefinition Id="5a864283-8e97-41ba-861e-7a33f6dc4cd8" />
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <componentMoniker Id="a92ef3f4-4500-421e-b806-534277319baf" LastKnownName="Component1" />
+            </type_NamedElement>
+          </part>
+          <part Id="733f24e2-a4a8-43e4-83e0-3493cea8f3aa" name="Navigation System" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="f4d32055-0530-4f5c-bc35-2aaf4d014c21" />
+            <targetNamedElementsInternal>
+              <connector Id="f7ec196b-0cd7-4e63-8ac5-edc7c3d26cfa" isLeaf="false" isStatic="false">
+                <requiredInterfaceMoniker Id="ae77403d-ab9e-4ac6-8e69-acbe7d94fc82" LastKnownName="Port1" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="69bb8691-a228-4f18-9519-e36853b9b014">
+                      <elementDefinition Id="ad93c437-1022-4b09-8eb9-c7ccfed8a15b" />
+                      <portWithPart>
+                        <requiredInterfaceMoniker Id="71923aad-c480-4b93-880f-2d75db3a23fc" LastKnownName="Port2" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="5165db28-3266-4052-a86f-ac54df2658f0">
+                      <elementDefinition Id="7043bac2-e33b-4863-af1c-ef0b2fc1d790" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+                <elementDefinition Id="241bd0c7-9b4e-470f-b0f0-21895a8bd417" />
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <componentMoniker Id="b5009776-2b22-4701-a2e4-3263693d1c64" LastKnownName="Component2" />
+            </type_NamedElement>
+          </part>
+          <requiredInterface Id="ae77403d-ab9e-4ac6-8e69-acbe7d94fc82" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="bc9f2cd8-ecba-4207-8dbb-95e74c0088e4" />
+            <suppliersInternal>
+              <dependency Id="3d4e223c-30e6-424e-ae5e-eabe63b2c321">
+                <providedInterfaceMoniker Id="ed73ff63-c00d-4f2c-b75d-37b0d7bdf0ce" LastKnownName="Port1" />
+                <elementDefinition Id="fa2525df-53ff-466f-8dd1-c63ca6783ff3" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker Id="3449131b-b4b3-40fb-9e70-1da574ca9472" LastKnownName="Track Lookup" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="b03b75b3-7648-4756-ad19-719d99cb2465" name="Jamendo" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a849ecaa-9331-4095-ab61-6ae1fbc430fe" />
+        <ownedAttributesInternal>
+          <providedInterface Id="ed73ff63-c00d-4f2c-b75d-37b0d7bdf0ce" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="f86dee6d-5552-4212-9fea-e60223c88fc1" />
+            <type_NamedElement>
+              <interfaceMoniker Id="3da4c8e8-c697-44ff-99dc-3c728910d6ba" LastKnownName="API servise" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="a92ef3f4-4500-421e-b806-534277319baf" name="Component1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7e2ea275-1d20-467c-b6ab-5c6cd56c331f" />
+        <ownedAttributesInternal>
+          <requiredInterface Id="172cfecf-561f-48a4-97d2-fac3ed6311bd" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="6ec26ac8-0d70-4952-b5e6-c7671438ab90" />
+            <type_NamedElement>
+              <interfaceMoniker Id="c8e9ff21-45ec-4b38-9bb4-8def1840523c" LastKnownName="Play" />
+            </type_NamedElement>
+          </requiredInterface>
+          <requiredInterface Id="69181f2f-9670-48fe-b873-5a8661a4deec" name="Port2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="e7d3e973-50e9-4b3a-8917-677efd48b4d0" />
+            <type_NamedElement>
+              <interfaceMoniker Id="0fa1d17e-c00a-418a-9ff0-213c83701139" LastKnownName="Download" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <modelContainsNamedElements>
+      <Interface Id="3da4c8e8-c697-44ff-99dc-3c728910d6ba" name="API servise" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ba46617c-3d7c-41d7-a064-07e36ddf9857" />
+      </Interface>
+    </modelContainsNamedElements>
+    <componentModelHasComponents>
+      <component Id="b5009776-2b22-4701-a2e4-3263693d1c64" name="Component2" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="274349de-32f6-46ab-8434-d3fff64d0d26" />
+        <ownedAttributesInternal>
+          <providedInterface Id="bf3f07a5-80f5-4827-90a0-df49a8ec3786" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="65187629-be75-4542-9c11-c46eefdb33ab" />
+            <type_NamedElement>
+              <interfaceMoniker Id="dad1250e-74f0-42ad-8679-230d1fe88bed" LastKnownName="Curent track" />
+            </type_NamedElement>
+          </providedInterface>
+          <requiredInterface Id="71923aad-c480-4b93-880f-2d75db3a23fc" name="Port2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="ab9c0724-afa3-4b18-a0e4-98a9d3ba0b7f" />
+            <type_NamedElement>
+              <interfaceMoniker Id="3c60770a-804c-412d-afc7-62a50c104fe2" LastKnownName="Chose track" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <modelContainsNamedElements>
+      <Interface Id="3449131b-b4b3-40fb-9e70-1da574ca9472" name="Track Lookup" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="969daae9-e623-43fe-9a4f-cb40cd7e05ff" />
+      </Interface>
+    </modelContainsNamedElements>
+    <componentModelHasComponents>
+      <component Id="40f90123-9c34-485b-81ab-031840b84e70" name="PlayList Navigator" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a42d41ad-81d5-4821-8131-618938c26423" />
+        <generalsInternal>
+          <generalization Id="7b004ab9-84d3-4041-a598-91b1cffad27c" isSubstitutable="false">
+            <componentMoniker Id="70cda9f0-91fd-4085-8a1b-a16fb3e9e2aa" LastKnownName="Tracks Navigator" />
+            <elementDefinition Id="9735b601-9181-4d3d-8f50-98ddef1c9cbc" />
+          </generalization>
+        </generalsInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="b7db0d34-bc56-4500-b27c-d530ef06d7d9" name="Album Navigator" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="165b284e-e097-4167-873f-a0603e351d60" />
+        <generalsInternal>
+          <generalization Id="bc23fee6-bba8-4105-8b8e-8c680f4ad017" isSubstitutable="false">
+            <componentMoniker Id="70cda9f0-91fd-4085-8a1b-a16fb3e9e2aa" LastKnownName="Tracks Navigator" />
+            <elementDefinition Id="b23f3bbd-2a97-4085-be3b-1dbc3bf02dfc" />
+          </generalization>
+        </generalsInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="70cda9f0-91fd-4085-8a1b-a16fb3e9e2aa" name="Tracks Navigator" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c4eb7089-e98f-4346-aef9-3a8c2fdf2dfc" />
+      </component>
+    </componentModelHasComponents>
+    <modelContainsNamedElements>
+      <Interface Id="dad1250e-74f0-42ad-8679-230d1fe88bed" name="Curent track" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fcf4cdef-b259-4918-b5a6-625887e96d10" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="c8e9ff21-45ec-4b38-9bb4-8def1840523c" name="Play" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d9a6b84d-43ac-4b29-8511-04056ab9aee9" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="0fa1d17e-c00a-418a-9ff0-213c83701139" name="Download" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c9a846af-16b2-4e72-95c3-31567aa16627" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="3c60770a-804c-412d-afc7-62a50c104fe2" name="Chose track" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d49a6040-397e-4175-b45d-a49e6290543a" />
+      </Interface>
+    </modelContainsNamedElements>
+    <componentModelHasComponents>
+      <component Id="b7be2387-7d2c-4e72-a42b-e7f499f8517c" name="Jamendo client UI" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c250e8df-bb1e-4b1b-bded-062247a52eaa" />
+        <suppliersInternal>
+          <dependency Id="228e57ed-9165-4cd5-8200-4ad4477f372b">
+            <componentMoniker Id="1b75adbc-8d1a-41dd-9eae-246c080e98a7" LastKnownName="Jamendo API" />
+            <elementDefinition Id="d399780f-6a81-4454-8ee5-58c9b50a7fac" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="1b75adbc-8d1a-41dd-9eae-246c080e98a7" name="Jamendo API" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="bb023807-e3dd-491b-8046-be2bf11a60e4" />
+      </component>
+    </componentModelHasComponents>
+  </packagedElements>
+  <package Id="5eccd53c-5149-43b8-86d0-b45711e45ac5" name="OnJamendo.Modeling">
+    <elementDefinition Id="25f2594a-c95e-48d5-989b-6f10fc1bd686" />
+    <profileInstances>
+      <packageHasProfileInstances Id="3ceeb40f-ef10-4cd4-a362-6a517b9ae01f">
+        <profileInstance Id="dd2ae1e4-edcd-4689-ae4f-5d317c2dea68" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="a1f955f1-2da0-46e2-817c-00f93af4c54e">
+        <profileInstance Id="cf89bc33-3019-4a58-81ed-56313754a1bf" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="9a3cd8a1-650c-42c5-83e7-ef044ed6f734">
+        <profileInstance Id="1e3e21d9-2b33-460a-b8c5-7cfd32df42f3" name="CSharpProfile">
+          <elementDefinition Id="e3ac222f-b468-40cc-b810-b7dca974d7b0" />
+        </profileInstance>
+        <elementDefinition Id="4583ceab-9518-4130-a294-f233e95f19bc" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</componentModel>

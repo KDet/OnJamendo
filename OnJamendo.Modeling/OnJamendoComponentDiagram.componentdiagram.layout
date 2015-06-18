@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 9.5" name="OnJamendoComponentDiagram">
+  <componentModelMoniker Id="098a4307-97b9-4403-90b0-f2808c2d55cf" />
+  <nestedChildShapes>
+    <componentShape Id="1a1f8133-cd7c-4f0a-9a2d-e8b4668b3f7d" absoluteBounds="0.5, 2, 3.28547448515892, 4.425" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="63a87f96-a0ae-4c72-9d19-77268837dfe3" LastKnownName="OnJamendo UI" />
+      <relativeChildShapes>
+        <requiredInterfaceShape Id="c0a2912b-4aa7-4d8b-92e8-7599e091a779" absoluteBounds="3.78547448515892, 3.53125, 0.40625, 0.15625" blackBoxLocation="0" whiteBoxLocation="0" whiteBoxEdge="" blackBoxEdge="" whiteBoxIsOnPort="false" blackBoxIsOnPort="false">
+          <requiredInterfaceMoniker Id="ae77403d-ab9e-4ac6-8e69-acbe7d94fc82" LastKnownName="Port1" />
+          <relativeChildShapes />
+        </requiredInterfaceShape>
+      </relativeChildShapes>
+      <nestedChildShapes>
+        <componentUseShape Id="d41c0f0a-5cc3-4e2e-bc83-9d933377cbec" absoluteBounds="0.875, 5.375, 1.9583333333333335, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="bd42ea45-fceb-445b-b718-4707ae2c11c7" LastKnownName="Track Actions System" />
+          <relativeChildShapes>
+            <requiredInterfaceShape Id="0f057ccf-264d-4a86-8537-4f5ea101d60b" absoluteBounds="1.34375, 4.96875, 0.15625, 0.40625" blackBoxLocation="0" whiteBoxLocation="0" whiteBoxEdge="" blackBoxEdge="" whiteBoxIsOnPort="false" blackBoxIsOnPort="false">
+              <requiredInterfaceMoniker Id="172cfecf-561f-48a4-97d2-fac3ed6311bd" LastKnownName="Port1" />
+              <relativeChildShapes />
+            </requiredInterfaceShape>
+            <requiredInterfaceShape Id="2cfb4b3d-e40d-4aad-a561-f5306ef8804f" absoluteBounds="2.25, 4.96875, 0.15625, 0.40625" blackBoxLocation="0" whiteBoxLocation="0" whiteBoxEdge="" blackBoxEdge="" whiteBoxIsOnPort="false" blackBoxIsOnPort="false">
+              <requiredInterfaceMoniker Id="69181f2f-9670-48fe-b873-5a8661a4deec" LastKnownName="Port2" />
+              <relativeChildShapes />
+              <moveableDecoratorHostShapes>
+                <moveableDecoratorHostShape manuallyPlaced="true" absoluteBounds="2.5090874433517456, 4.75, 0.53714549541473389, 0.14800345897674561" shapeFieldName="Label" />
+              </moveableDecoratorHostShapes>
+            </requiredInterfaceShape>
+          </relativeChildShapes>
+        </componentUseShape>
+        <componentUseShape Id="cfd60e01-660e-463a-b4ff-1c22e1a41dfb" absoluteBounds="0.875, 2.625, 1.8958333333333339, 1.2208333333333332" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="733f24e2-a4a8-43e4-83e0-3493cea8f3aa" LastKnownName="Navigation System" />
+          <relativeChildShapes>
+            <providedInterfaceShape Id="fe48bb94-db79-4f03-8d9e-5e55e5b16dec" absoluteBounds="1.78125, 3.8458333333333332, 0.15625, 0.40625" blackBoxLocation="0" whiteBoxLocation="0" whiteBoxEdge="" blackBoxEdge="" whiteBoxIsOnPort="false" blackBoxIsOnPort="false">
+              <providedInterfaceMoniker Id="bf3f07a5-80f5-4827-90a0-df49a8ec3786" LastKnownName="Port1" />
+              <relativeChildShapes />
+              <moveableDecoratorHostShapes>
+                <moveableDecoratorHostShape manuallyPlaced="true" absoluteBounds="1.9920247495174408, 4.1875, 0.65829348564147949, 0.14800345897674561" shapeFieldName="Label" />
+              </moveableDecoratorHostShapes>
+            </providedInterfaceShape>
+            <requiredInterfaceShape Id="0a71cc9f-2460-46bb-8d1d-1600b35ba59e" absoluteBounds="2.7708333333333339, 3.375, 0.40625, 0.15625" blackBoxLocation="0" whiteBoxLocation="0" whiteBoxEdge="" blackBoxEdge="" whiteBoxIsOnPort="false" blackBoxIsOnPort="false">
+              <requiredInterfaceMoniker Id="71923aad-c480-4b93-880f-2d75db3a23fc" LastKnownName="Port2" />
+              <relativeChildShapes />
+              <moveableDecoratorHostShapes>
+                <moveableDecoratorHostShape manuallyPlaced="true" absoluteBounds="2.9635958969593048, 3.1499935144186022, 0.62812858819961548, 0.14800345897674561" shapeFieldName="Label" />
+              </moveableDecoratorHostShapes>
+            </requiredInterfaceShape>
+          </relativeChildShapes>
+        </componentUseShape>
+        <delegationConnector edgePoints="[(1.421875 : 4.96875); (1.421875 : 4.62708333333333); (1.859375 : 4.62708333333333); (1.859375 : 4.25208333333333)]" manuallyRouted="true" fixedFrom="Caller" fixedTo="Caller" customColor="Black">
+          <connectorMoniker Id="aa5b17e0-1151-499f-84ff-efb9aa7ea48e" />
+          <relativeChildShapes />
+          <nodes>
+            <requiredInterfaceShapeMoniker Id="0f057ccf-264d-4a86-8537-4f5ea101d60b" />
+            <providedInterfaceShapeMoniker Id="fe48bb94-db79-4f03-8d9e-5e55e5b16dec" />
+          </nodes>
+        </delegationConnector>
+        <delegationConnector edgePoints="[(2.328125 : 4.96875); (2.328125 : 4.61041666666667); (1.859375 : 4.61041666666667); (1.859375 : 4.25208333333333)]" manuallyRouted="true" fixedFrom="Caller" fixedTo="Caller" customColor="Black">
+          <connectorMoniker Id="eb81d42f-4ee3-4af2-adfc-aa5554c30cb2" />
+          <relativeChildShapes />
+          <nodes>
+            <requiredInterfaceShapeMoniker Id="2cfb4b3d-e40d-4aad-a561-f5306ef8804f" />
+            <providedInterfaceShapeMoniker Id="fe48bb94-db79-4f03-8d9e-5e55e5b16dec" />
+          </nodes>
+        </delegationConnector>
+        <delegationConnector edgePoints="[(3.17708333333333 : 3.453125); (3.47708333333333 : 3.453125); (3.47708333333333 : 3.609375); (3.70734948515892 : 3.609375)]" fixedFrom="Caller" fixedTo="Caller" customColor="Black">
+          <connectorMoniker Id="f7ec196b-0cd7-4e63-8ac5-edc7c3d26cfa" />
+          <relativeChildShapes />
+          <nodes>
+            <requiredInterfaceShapeMoniker Id="0a71cc9f-2460-46bb-8d1d-1600b35ba59e" />
+            <requiredInterfaceShapeMoniker Id="c0a2912b-4aa7-4d8b-92e8-7599e091a779" />
+          </nodes>
+        </delegationConnector>
+      </nestedChildShapes>
+    </componentShape>
+    <componentShape Id="b49790b9-1327-4597-b63b-0e46e6277823" absoluteBounds="5.5, 2.25, 1.5, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="b03b75b3-7648-4756-ad19-719d99cb2465" LastKnownName="Jamendo" />
+      <relativeChildShapes>
+        <providedInterfaceShape Id="e78ba19c-0908-4630-9c7a-bb14ecab79ca" absoluteBounds="5.09375, 2.875, 0.40625, 0.15625" blackBoxLocation="0" whiteBoxLocation="0" whiteBoxEdge="" blackBoxEdge="" whiteBoxIsOnPort="false" blackBoxIsOnPort="false">
+          <providedInterfaceMoniker Id="ed73ff63-c00d-4f2c-b75d-37b0d7bdf0ce" LastKnownName="Port1" />
+          <relativeChildShapes />
+          <moveableDecoratorHostShapes>
+            <moveableDecoratorHostShape manuallyPlaced="true" absoluteBounds="4.59375, 2.625, 0.59416592121124268, 0.14800345897674561" shapeFieldName="Label" />
+          </moveableDecoratorHostShapes>
+        </providedInterfaceShape>
+      </relativeChildShapes>
+    </componentShape>
+    <dependencyConnector edgePoints="[(4.19172448515892 : 3.609375); (4.56672448515892 : 3.609375); (4.56672448515892 : 2.953125); (5.09375 : 2.953125)]" fixedFrom="Caller" fixedTo="Caller" customColor="Black">
+      <dependencyMoniker Id="3d4e223c-30e6-424e-ae5e-eabe63b2c321" />
+      <relativeChildShapes />
+      <nodes>
+        <requiredInterfaceShapeMoniker Id="c0a2912b-4aa7-4d8b-92e8-7599e091a779" />
+        <providedInterfaceShapeMoniker Id="e78ba19c-0908-4630-9c7a-bb14ecab79ca" />
+      </nodes>
+    </dependencyConnector>
+    <componentShape Id="aa479e88-bd80-4559-8658-96252fa0f3f7" absoluteBounds="0.5, 7, 1.65625, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="40f90123-9c34-485b-81ab-031840b84e70" LastKnownName="PlayList Navigator" />
+    </componentShape>
+    <componentShape Id="840e51f4-0b34-4861-bfa1-843fb20f8ef0" absoluteBounds="0.5, 8.25, 1.6666666666666665, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="b7db0d34-bc56-4500-b27c-d530ef06d7d9" LastKnownName="Album Navigator" />
+    </componentShape>
+    <componentShape Id="000a7f82-9420-4c93-b4ef-e6e5691a6727" absoluteBounds="3.125, 7.625, 1.6979166666666661, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="70cda9f0-91fd-4085-8a1b-a16fb3e9e2aa" LastKnownName="Tracks Navigator" />
+    </componentShape>
+    <generalizationConnector edgePoints="[(2.15625 : 7.7875); (3.125 : 7.7875)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110">
+      <generalizationMoniker Id="7b004ab9-84d3-4041-a598-91b1cffad27c" />
+      <relativeChildShapes />
+      <nodes>
+        <componentShapeMoniker Id="aa479e88-bd80-4559-8658-96252fa0f3f7" />
+        <componentShapeMoniker Id="000a7f82-9420-4c93-b4ef-e6e5691a6727" />
+      </nodes>
+    </generalizationConnector>
+    <generalizationConnector edgePoints="[(2.16666666666667 : 8.66862416107383); (2.54166666666667 : 8.66862416107383); (2.54166666666667 : 8.212502); (3.125 : 8.212502)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110">
+      <generalizationMoniker Id="bc23fee6-bba8-4105-8b8e-8c680f4ad017" />
+      <relativeChildShapes />
+      <nodes>
+        <componentShapeMoniker Id="840e51f4-0b34-4861-bfa1-843fb20f8ef0" />
+        <componentShapeMoniker Id="000a7f82-9420-4c93-b4ef-e6e5691a6727" />
+      </nodes>
+    </generalizationConnector>
+    <commentShape Id="482ab3a0-021e-45ae-99dd-d967ed67c9f4" absoluteBounds="3.75, 6.875, 1.25, 0.375" customColor="251, 247, 200">
+      <commentMoniker Id="fd19a99b-4505-4f38-8833-63cc153d7046" />
+      <relativeChildShapes />
+    </commentShape>
+    <componentShape Id="ba8fa5aa-d0b7-4fcc-9d67-2af5ec375a43" absoluteBounds="1.0104166269302368, 0.61458301544189453, 2, 0.95" customColor="Yellow" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="b7be2387-7d2c-4e72-a42b-e7f499f8517c" LastKnownName="Jamendo client UI" />
+    </componentShape>
+    <componentShape Id="dbf51225-5d54-4efe-a454-460d0a795ebb" absoluteBounds="4, 0.625, 1.5, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="1b75adbc-8d1a-41dd-9eae-246c080e98a7" LastKnownName="Jamendo API" />
+    </componentShape>
+    <dependencyConnector edgePoints="[(3.01041662693024 : 0.964852165908438); (3.38541662693024 : 0.964852165908438); (3.38541662693024 : 0.958955223880597); (4 : 0.958955223880597)]" fixedFrom="Caller" fixedTo="Caller" customColor="Black">
+      <dependencyMoniker Id="228e57ed-9165-4cd5-8200-4ad4477f372b" />
+      <relativeChildShapes />
+      <nodes>
+        <componentShapeMoniker Id="ba8fa5aa-d0b7-4fcc-9d67-2af5ec375a43" />
+        <componentShapeMoniker Id="dbf51225-5d54-4efe-a454-460d0a795ebb" />
+      </nodes>
+    </dependencyConnector>
+  </nestedChildShapes>
+</componentDiagram>

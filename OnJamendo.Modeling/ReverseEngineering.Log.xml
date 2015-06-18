@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 11.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Журнал создания кода/преобразования текста">
+  <MessageClass Name="Message" Label="Сообщение" Option="Показывать информационные сообщения" />
+  <MessageClass Name="Warning" Label="Предупреждение" Option="Показывать предупреждения" />
+  <MessageClass Name="Error" Label="Ошибка" Option="Показывать ошибки" />
+  <MessageClass Name="Property" Label="Свойство" Option="Показывать метаданные" />
+  <MessageClass Name="Diagnostic" Label="Сообщение" Option="Показывать диагностические сообщения" />
+  <Message Timestamp="2013-06-11T19:09:16" Importance="High" Text="Реконструирование запущено." />
+  <Message Timestamp="2013-06-11T19:09:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;OnJamendo.Modeling::OnJamendo&quot; -  (Package)" />
+  <Message Timestamp="2013-06-11T19:09:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;OnJamendo.Modeling::OnJamendo::Model&quot; -  (Package)" />
+  <Message Timestamp="2013-06-11T19:09:18" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;OnJamendo.Modeling::OnJamendo::Model::DownloadTrack&quot; -  (Class)" />
+  <Message Timestamp="2013-06-11T19:09:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;OnJamendo.Modeling::OnJamendo::Model::DownloadTrack::_recivedBytes&quot; -  (Property)" />
+  <Message Timestamp="2013-06-11T19:09:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;OnJamendo.Modeling::OnJamendo::Model::DownloadTrack::_storageFile&quot; -  (Property)" />
+  <Message Timestamp="2013-06-11T19:09:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;OnJamendo.Modeling::OnJamendo::Model::DownloadTrack::_totalBytesToRecive&quot; -  (Property)" />
+  <Message Timestamp="2013-06-11T19:09:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;OnJamendo.Modeling::OnJamendo::Model::DownloadTrack::DownloadTrack&quot; -  (Operation)" />
+  <Message Timestamp="2013-06-11T19:09:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;OnJamendo.Modeling::OnJamendo::Model::DownloadTrack::DownloadTrack::storageFile&quot; -  (Parameter)" />
+  <Message Timestamp="2013-06-11T19:09:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;OnJamendo.Modeling::OnJamendo::Model::DownloadTrack::DownloadTrack::track&quot; -  (Parameter)" />
+  <Message Timestamp="2013-06-11T19:09:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;OnJamendo.Modeling::OnJamendo::Model::DownloadTrack::RecivedBytes&quot; -  (Property)" />
+  <Message Timestamp="2013-06-11T19:09:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;OnJamendo.Modeling::OnJamendo::Model::DownloadTrack::StorageFile&quot; -  (Property)" />
+  <Message Timestamp="2013-06-11T19:09:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;OnJamendo.Modeling::OnJamendo::Model::DownloadTrack::TotalBytesToRecive&quot; -  (Property)" />
+  <Message Timestamp="2013-06-11T19:09:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;OnJamendo.Modeling::OnJamendo::Model::Track&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2013-06-11T19:09:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;OnJamendo.Modeling::System&quot; -  (Package)" />
+  <Message Timestamp="2013-06-11T19:09:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;OnJamendo.Modeling::System::UInt64&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2013-06-11T19:09:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;OnJamendo.Modeling::Windows&quot; -  (Package)" />
+  <Message Timestamp="2013-06-11T19:09:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;OnJamendo.Modeling::Windows::Storage&quot; -  (Package)" />
+  <Message Timestamp="2013-06-11T19:09:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;OnJamendo.Modeling::Windows::Storage::StorageFile&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2013-06-11T19:09:18" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: OnJamendo.Modeling::OnJamendo::Model::DownloadTrack в OnJamendo.Modeling::System::UInt64 (Association)" />
+  <Message Timestamp="2013-06-11T19:09:18" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: OnJamendo.Modeling::OnJamendo::Model::DownloadTrack в OnJamendo.Modeling::System::UInt64 (Association)" />
+  <Message Timestamp="2013-06-11T19:09:18" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: OnJamendo.Modeling::OnJamendo::Model::DownloadTrack в OnJamendo.Modeling::Windows::Storage::StorageFile (Association)" />
+  <Message Timestamp="2013-06-11T19:09:18" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: OnJamendo.Modeling::OnJamendo::Model::DownloadTrack в OnJamendo.Modeling::OnJamendo::Model::Track (Generalization)" />
+  <Message Timestamp="2013-06-11T19:09:18" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: OnJamendo.Modeling::OnJamendo::Model::Track в OnJamendo.Modeling::System::IEquatable&lt;Track‎&gt; (InterfaceRealization)" />
+  <Message Timestamp="2013-06-11T19:09:18" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: OnJamendo.Modeling::OnJamendo::Model::Track в OnJamendo.Modeling::OnJamendo::Model::MusicItem (Generalization)" />
+  <Message Timestamp="2013-06-11T19:09:18" Importance="High" Text="Полностью реконструировано (1) типов." />
+  <Message Timestamp="2013-06-11T19:09:18" Importance="High" Text="Частично реконструировано (3) типов.  Эти типы не были включены в исходный выбор, поэтому их полные определения не реконструированы.  Данная пустая операция лишь проверила наличие этих типов в модели UML, поскольку они необходимы для полного описания других элементов." />
+  <Message Timestamp="2013-06-11T19:09:18" Importance="High" Text="Операция реконструирования завершена; ошибок: (0), предупреждений: (0)." />
+</Log>

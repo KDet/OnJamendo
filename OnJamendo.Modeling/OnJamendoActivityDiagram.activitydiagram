@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="9f7f2dea-9a9d-4468-8483-a90db180012c" name="OnJamendoActivityDiagram" linkedPackageId="6232d53c-3871-45f0-85d6-dee709c48623" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="b772844c-5ddf-4c8d-984f-a6f8de6703db">
+      <profileInstance Id="4bc76124-959b-43e8-8bce-fd19d59d0936" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="d7f1364a-f30f-48d2-b914-c9a81c7f8a84">
+      <profileInstance Id="41cd3ff4-a188-4d78-a674-4f936391f1f4" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="73db161d-a9a3-47a8-a460-d7ec971b39e7">
+      <profileInstance Id="0a61c0d1-7d4e-4c8b-ab1d-70b8e7862dc8" name="CSharpProfile">
+        <elementDefinition Id="e3ac222f-b468-40cc-b810-b7dca974d7b0" />
+      </profileInstance>
+      <elementDefinition Id="4583ceab-9518-4130-a294-f233e95f19bc" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="c0268b78-5e21-482b-b282-2ececdce322c" name="OnJamendoActivityDiagram" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="7591e849-d2d9-4cf0-8213-99149a48e0fd" />
+        <nodes>
+          <initialNode Id="2c911b71-e674-43a9-b7fb-117417ecc8e8" name="Initial1" isLeaf="false">
+            <elementDefinition Id="1eaeeec0-0e74-48b2-9aa3-e88fdfea55ff" />
+            <flowNodeTargets>
+              <controlFlow Id="b352f257-cfd8-4e28-9b56-9b1cdf7367e2" isLeaf="false">
+                <opaqueActionMoniker Id="e1a45d0f-9d7d-4e51-9b9a-d3392b3782bb" LastKnownName="Browse tracks" />
+                <elementDefinition Id="1bc1034c-06ad-4339-a2b2-83e3999f1e31" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="e1a45d0f-9d7d-4e51-9b9a-d3392b3782bb" name="Browse tracks" isLeaf="false">
+            <elementDefinition Id="b6145ab4-bc07-4462-8fad-c7dad5766fe1" />
+            <flowNodeTargets>
+              <controlFlow Id="6bcdef5c-9516-4522-bcad-3fcf1e80c609" isLeaf="false">
+                <mergeNodeMoniker Id="9e3cbaf6-182c-4c16-8a80-829dbfe8bf17" LastKnownName="Merge1" />
+                <elementDefinition Id="791136ac-ed1e-4bce-8c01-3cd61a8218f1" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="f8b48f5c-c975-4b54-a876-0c3834dce57b" name="Select track" isLeaf="false">
+            <elementDefinition Id="8147969e-ab8b-42b3-bab8-50e2c8db60bb" />
+            <objectFlowTargets>
+              <objectFlow Id="bcfdb8f9-5d68-4926-9712-c52821554f53" isLeaf="false" isMulticast="false" isMultireceive="false">
+                <objectNodeMoniker Id="be3d0b3e-4bea-4be3-940e-568c35e49c4a" LastKnownName="Selected track" />
+                <elementDefinition Id="890c391d-a317-4535-9dc2-c3ddad2875cb" />
+              </objectFlow>
+            </objectFlowTargets>
+          </opaqueAction>
+          <forkNode Id="6a94c397-3e50-4e3e-b4b8-439cc5ec74bc" name="Fork1" isLeaf="false">
+            <elementDefinition Id="83265599-a900-4f94-8fcc-cee28d1c5073" />
+            <flowNodeTargets>
+              <controlFlow Id="538a085e-0ff4-4b37-99b4-c91e0e4278db" isLeaf="false">
+                <opaqueActionMoniker Id="4961e45f-0aed-4cee-8fc4-1d16072a22a8" LastKnownName="Play track" />
+                <elementDefinition Id="9548457c-9933-4a1d-8087-d46eea9cf464" />
+              </controlFlow>
+              <controlFlow Id="aeacc436-08a9-49c9-b818-fa01a5ec85ee" isLeaf="false">
+                <opaqueActionMoniker Id="bee08b27-7d31-4747-ba68-2fb425d7497d" LastKnownName="Download track" />
+                <elementDefinition Id="34112216-0c52-4bf0-b15c-355aa19bba84" />
+              </controlFlow>
+            </flowNodeTargets>
+          </forkNode>
+          <opaqueAction Id="4961e45f-0aed-4cee-8fc4-1d16072a22a8" name="Play track" isLeaf="false">
+            <elementDefinition Id="7866342e-be47-4345-93c5-33639c0cb843" />
+            <flowNodeTargets>
+              <controlFlow Id="7eaf5f74-050c-4168-ba7d-062244264ba4" isLeaf="false">
+                <joinNodeMoniker Id="6cf0ee01-52bf-46dd-9812-ee90c81279f1" LastKnownName="Join1" />
+                <elementDefinition Id="f8c0a3b9-5f14-49bd-8365-2cd953ec6dc1" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="bee08b27-7d31-4747-ba68-2fb425d7497d" name="Download track" isLeaf="false">
+            <elementDefinition Id="4affa4d2-ebfd-447f-a541-02488e5f104e" />
+            <flowNodeTargets>
+              <controlFlow Id="170c93c5-359b-449a-be6a-46402ec2eb91" isLeaf="false">
+                <joinNodeMoniker Id="6cf0ee01-52bf-46dd-9812-ee90c81279f1" LastKnownName="Join1" />
+                <elementDefinition Id="38e4802c-9584-4e46-8e56-4692a7472c88" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <objectNode Id="be3d0b3e-4bea-4be3-940e-568c35e49c4a" name="Selected track" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="ff5f3d48-0e6f-4e8b-90e3-e9c36c0ca883" />
+            <objectFlowTargets>
+              <objectFlow Id="3a3e1f9f-b00a-4df3-836d-38cea12db772" isLeaf="false" isMulticast="false" isMultireceive="false">
+                <forkNodeMoniker Id="6a94c397-3e50-4e3e-b4b8-439cc5ec74bc" LastKnownName="Fork1" />
+                <elementDefinition Id="1368ce52-20f5-40d1-b96c-747b541c4f52" />
+              </objectFlow>
+            </objectFlowTargets>
+            <upperBound>
+              <literalInteger Id="810298f8-c1e7-4f9d-9ad6-b0678baf4ac7" name="2147483647" value="2147483647">
+                <elementDefinition Id="0cd6dcc4-8692-45db-a750-5d646333f8dd" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <joinNode Id="6cf0ee01-52bf-46dd-9812-ee90c81279f1" name="Join1" isLeaf="false">
+            <elementDefinition Id="7f2f98e4-229f-4407-a3f2-ac7ebe4cd86d" />
+            <flowNodeTargets>
+              <controlFlow Id="63762d29-ce13-490d-813c-b2ce602cb8cf" isLeaf="false">
+                <decisionNodeMoniker Id="6ac171fd-c23e-49fb-a227-2e8e8e15be69" LastKnownName="Decision1" />
+                <elementDefinition Id="752e0e7a-e676-4a3d-82b1-187bbc62f961" />
+              </controlFlow>
+            </flowNodeTargets>
+          </joinNode>
+          <decisionNode Id="6ac171fd-c23e-49fb-a227-2e8e8e15be69" name="Decision1" isLeaf="false">
+            <elementDefinition Id="14491bf2-936b-4259-ac23-a6e436b349d3" />
+            <flowNodeTargets>
+              <controlFlow Id="210d505c-8d31-42c3-9ecf-95a3a74292aa" guard="Sesion end" isLeaf="false">
+                <activityFinalNodeMoniker Id="6067f60c-8be3-41ed-add8-f34ae8b49b2d" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="7af9b948-fe4f-48c6-b39d-d557f9b3bc55" />
+              </controlFlow>
+              <controlFlow Id="70db40ba-6c2d-445e-bb34-c66bab11ef24" guard="Chose one more track" isLeaf="false">
+                <mergeNodeMoniker Id="9e3cbaf6-182c-4c16-8a80-829dbfe8bf17" LastKnownName="Merge1" />
+                <elementDefinition Id="7b927a44-3839-40fc-9948-8ced1c58005b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <activityFinalNode Id="6067f60c-8be3-41ed-add8-f34ae8b49b2d" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="7acef77a-90f6-4048-9248-3e7f1225fd75" />
+          </activityFinalNode>
+          <mergeNode Id="9e3cbaf6-182c-4c16-8a80-829dbfe8bf17" name="Merge1" isLeaf="false">
+            <elementDefinition Id="ed15da33-5015-4d89-8911-ef995464d346" />
+            <flowNodeTargets>
+              <controlFlow Id="eba0fc91-feaf-46e4-ab26-d008c836767e" isLeaf="false">
+                <opaqueActionMoniker Id="f8b48f5c-c975-4b54-a876-0c3834dce57b" LastKnownName="Select track" />
+                <elementDefinition Id="f4499ebe-dc2d-4b60-af4c-0911f0dbac84" />
+              </controlFlow>
+            </flowNodeTargets>
+          </mergeNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="6232d53c-3871-45f0-85d6-dee709c48623" name="OnJamendo.Modeling">
+    <elementDefinition Id="25f2594a-c95e-48d5-989b-6f10fc1bd686" />
+  </package>
+</activityRootModel>

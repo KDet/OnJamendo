@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="e224c978-e822-4a24-8546-23c7e7b998ec"
+  name="OnJamendo"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="18ec951d-5f4c-4a76-b3fd-286c5a4d3706"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DOnJamendo"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="b2873e5f-bdb6-4f15-94ea-0f71dc135095"
+        LastKnownName="Model"
+        LastKnownLocation="Package1_2227.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="061a5ff7-fe90-4cc1-99ab-703db9b9154b"
+        LastKnownName="Common"
+        LastKnownLocation="Package3_2227.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="3fd274f8-0522-492f-bde9-ebd4ad586219"
+        LastKnownName="ViewModel"
+        LastKnownLocation="Package_2232.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

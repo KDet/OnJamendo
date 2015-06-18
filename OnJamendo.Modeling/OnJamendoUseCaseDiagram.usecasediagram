@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="117590aa-83bf-47ca-b5bd-a2e467ee00cb" name="OnJamendoUseCaseDiagram" linkedPackageId="f0728275-0882-4e22-9257-10cc91ae761a" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <ownedCommentsInternal>
+    <comment Id="79f09451-7c95-4098-af7e-a169466af786">
+      <elementDefinition Id="c375f340-fe66-487a-9a4b-de9072e0d70d" />
+      <body>Download track ще не зроблено!</body>
+    </comment>
+  </ownedCommentsInternal>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="43026854-f3d3-4686-b3b3-e662856a845c" name="Jamendo client" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9588274d-8631-440f-a2b4-5369e7b69a62" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="a8841c6c-f273-4fe4-95a7-a16106936a06" name="User" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1f4e2510-7c47-4872-9999-4a04b78d4371" />
+        <targetEnds>
+          <association Id="245297df-3af1-4398-bd0a-adb783b0f2a8" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Browse Top tracks" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d0f6464c-85c5-4034-8c87-11e619e12160" LastKnownName="Browse Top tracks" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9ad6e277-ed9f-4903-8d04-077ce954c873" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="bda13bf7-655f-4088-8745-b5b9004873b8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9b1ce4dd-f6c1-4887-a292-26387543a5f8" name="Browse Top tracks" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a57590a2-7ca5-46e7-9da2-f0373a2236ef" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="65f3c9d0-1784-4fcb-a091-361196c1ab12" />
+          </association>
+          <association Id="c558ddfc-a2e3-4a9f-ac75-656b3b00f84e" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Browse Top albums" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="58d350f2-2e4a-4e50-b3aa-d2a144664306" LastKnownName="Browse Top albums" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="162707b8-f7f2-46bc-bc7f-0cd08712e3a2" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ea19dd86-13da-40dc-9ec1-855610fdcc2f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8242a8f9-ea59-4d5d-824c-325cca4df9fa" name="Browse Top albums" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="eded1c7b-b4b5-4dd9-bfa3-24eae9a67492" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="86e6fcc5-bb1f-4bfa-9c09-a0b4e238e59a" />
+          </association>
+          <association Id="d38cd069-54bc-47db-8d43-a4673549c735" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Browse Top playList" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="21eea2dd-f397-4c39-8cdb-e0fce3b1a75a" LastKnownName="Browse Top playList" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9fbaa07d-cf35-43f7-9964-da291f6c0c58" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8edfdf50-f3e5-4e8f-bd91-15512c780e94" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0dd5fc74-41c3-4d26-9073-a2a1e78fec52" name="Browse Top playList" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="012a5455-73e4-4e86-bf83-c1b888341480" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9f1264a7-4e76-4591-894f-6effd56b5c41" />
+          </association>
+          <association Id="08407aad-0182-43e7-8a60-b722a9f1675d" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Listen track" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d22502cc-f672-416f-89c1-c5447196b1a7" LastKnownName="Listen track online" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="44371bcd-53f4-4f49-9d30-e0cc2a286507" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7ec17dae-5e80-4218-a40b-c664ef5acd7c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f014ff44-04c5-44f6-a89d-eae5484199c1" name="Listen track" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0bf46c30-4a03-4f24-9ebd-190b77d70892" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3fb5ad54-da4a-4519-84bb-03faa49e360a" />
+          </association>
+          <association Id="57a41928-8fe4-446b-ba1c-c500407d1e93" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Download track" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9d11c015-8c16-40ff-bd7e-897f2f7bb218" LastKnownName="Download track" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fe710c35-384a-4586-bbae-38abeae25878" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="aac7eb06-9b43-40b9-b1fb-7dcca980c5f8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e01c9366-a042-4cd7-8a82-eea44e8534d0" name="Download track" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6829bf15-59a2-451c-acc2-6fe1e8398d4b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1269bdc4-b848-4ec0-9298-9442342bb5cb" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="21eea2dd-f397-4c39-8cdb-e0fce3b1a75a" name="Browse Top playList" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9b8a34d2-86f8-43fc-9e9a-372d5b67e95c" />
+        <additions>
+          <include Id="ca157e88-27d0-4be2-b7c0-4a14738cf3a7">
+            <useCaseMoniker Id="36445de1-2b80-4bdf-a75d-5565767fb77a" LastKnownName="Browse  inside tracks" />
+            <elementDefinition Id="9f67d3fb-c465-4a20-8a0a-9218dde2779b" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="43026854-f3d3-4686-b3b3-e662856a845c" LastKnownName="Jamendo client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="58d350f2-2e4a-4e50-b3aa-d2a144664306" name="Browse Top albums" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c8ee8dee-0bf2-46d8-aac6-18f54dae3ae5" />
+        <additions>
+          <include Id="0c0f0b31-8336-4efe-a8d6-bdf7af33a2fb">
+            <useCaseMoniker Id="36445de1-2b80-4bdf-a75d-5565767fb77a" LastKnownName="Browse  inside tracks" />
+            <elementDefinition Id="f41b3bb9-1841-4e92-8066-aa6ddc91f5f3" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="43026854-f3d3-4686-b3b3-e662856a845c" LastKnownName="Jamendo client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="d0f6464c-85c5-4034-8c87-11e619e12160" name="Browse Top tracks" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cdc053d9-76f5-4e66-a69d-f58988cd947c" />
+        <targetEnds>
+          <association Id="ee9fc06d-ccdd-4e00-81c0-4218285a126d" isDerived="false" sourceEndRoleName="Browse Top tracks" targetEndRoleName="Jamendo System" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="e1877654-d8df-4a39-989a-08f6e6019aa0" LastKnownName="Jamendo System" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e554e7c1-2d5c-4995-b82d-7d49aefdfde9" name="Browse Top tracks" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7f0e00eb-6104-4c86-ac1a-9f92dc1c101a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="731d4aab-910a-419c-a769-3a39031fddc3" name="Jamendo System" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2a57e210-e5ba-4944-ab6a-7b5f20ed6aef" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2d93e7da-cb85-40c2-a238-c3dc1ca8a531" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="43026854-f3d3-4686-b3b3-e662856a845c" LastKnownName="Jamendo client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="36445de1-2b80-4bdf-a75d-5565767fb77a" name="Browse  inside tracks" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6c3421ce-fbbf-4d94-ad14-39cdcc33062e" />
+        <targetEnds>
+          <association Id="5d5fd4a2-822f-4837-b539-ae0cde601530" isDerived="false" sourceEndRoleName="Browse tracks " targetEndRoleName="Jamendo System" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="e1877654-d8df-4a39-989a-08f6e6019aa0" LastKnownName="Jamendo System" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d61bc455-e8d2-42a6-8186-b50819accaff" name="Browse tracks " isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2912d9ac-51b2-4efb-a4ba-a31c25a150b5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="93b88d39-b872-42f5-99c6-b2e85fb9fb57" name="Jamendo System" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="45844a7a-98a2-4181-b900-11a2fae08ec1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="dc648ecc-82bd-4485-9eac-aa5e2a1ce484" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="43026854-f3d3-4686-b3b3-e662856a845c" LastKnownName="Jamendo client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="d22502cc-f672-416f-89c1-c5447196b1a7" name="Listen track online" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="39f73852-40d1-4b4e-bd47-888757a0e1bc" />
+        <subjects>
+          <subsystemMoniker Id="43026854-f3d3-4686-b3b3-e662856a845c" LastKnownName="Jamendo client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="9d11c015-8c16-40ff-bd7e-897f2f7bb218" name="Download track" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="964bbba3-ddeb-4b2a-94d1-9e1e0e8a13fd" />
+        <subjects>
+          <subsystemMoniker Id="43026854-f3d3-4686-b3b3-e662856a845c" LastKnownName="Jamendo client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="5fdfbc0c-7e9c-49ee-9e28-4593f4fcf378" name="Track isn't avoible to load" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="743acfa6-1440-4ae5-800d-2cc86a2d5ae0" />
+        <extendedCases>
+          <extend Id="5792c110-76c3-4e95-8975-bd4e4d3f3d95">
+            <useCaseMoniker Id="9d11c015-8c16-40ff-bd7e-897f2f7bb218" LastKnownName="Download track" />
+            <elementDefinition Id="df06b527-5c3c-48be-9dac-8f56623d7c53" />
+          </extend>
+          <extend Id="9c56c498-6101-4929-807c-72086a292489">
+            <useCaseMoniker Id="d22502cc-f672-416f-89c1-c5447196b1a7" LastKnownName="Listen track online" />
+            <elementDefinition Id="3e7b4da7-748e-4ebd-91d3-fb0ddd5fbb65" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="43026854-f3d3-4686-b3b3-e662856a845c" LastKnownName="Jamendo client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="e1877654-d8df-4a39-989a-08f6e6019aa0" name="Jamendo System" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e1f80c11-f4ee-4fdc-8c74-92b57bb323f6" />
+        <targetEnds>
+          <association Id="dcf3cad1-28ba-41f3-9442-6e6ee5b6bc29" isDerived="false" sourceEndRoleName="Jamendo System" targetEndRoleName="Browse  inside tracks" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="36445de1-2b80-4bdf-a75d-5565767fb77a" LastKnownName="Browse  inside tracks" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f259bada-ca77-46f5-83e1-bf74f3c13ff7" name="Jamendo System" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="19330f1b-90a9-457d-8db8-a8b1f4b99ea6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b8ef4065-7e0a-4d1d-b786-c981a31e00fb" name="Browse  inside tracks" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fc3e7970-76b2-4957-b96f-2f13750e2d12" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="69c01ba4-6850-4ae0-9be5-67b318b624b5" />
+          </association>
+          <association Id="0d3f6fc6-431b-4497-bf72-6c884c6fe85f" isDerived="false" sourceEndRoleName="Jamendo System" targetEndRoleName="Browse Top tracks" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d0f6464c-85c5-4034-8c87-11e619e12160" LastKnownName="Browse Top tracks" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3da2d93a-3759-4453-b338-2a0dbece4f80" name="Jamendo System" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="99cce6fb-adce-445e-8f07-88e786ba21a2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c78b44d2-bf93-4206-9556-c97a68aecd85" name="Browse Top tracks" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6b8e7079-ece4-4758-9f11-6c900028083a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="11a07e1c-c6e1-471d-9203-fe320bb5c205" />
+          </association>
+          <association Id="80259607-3c18-4139-8e22-b1d431e0f750" isDerived="false" sourceEndRoleName="Jamendo System" targetEndRoleName="Download track" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9d11c015-8c16-40ff-bd7e-897f2f7bb218" LastKnownName="Download track" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fc42dcfa-7c0b-48fc-9ee6-631d72100a53" name="Jamendo System" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5a5910f0-fdd3-45b7-90cc-6bafc68d675d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a9e95ad9-65c3-41fb-bfbf-6dc5e1190d52" name="Download track" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fcc001de-0498-481f-a7a2-0e56fcc8a489" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4501d23b-2d6e-4d1b-8922-c8ed07f9bac2" />
+          </association>
+          <association Id="76f8394b-dfe1-44f2-9424-0570e2e0f5e5" isDerived="false" sourceEndRoleName="Jamendo System" targetEndRoleName="Listen track online" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d22502cc-f672-416f-89c1-c5447196b1a7" LastKnownName="Listen track online" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e6ec7a9d-5585-4a91-a0bf-8c58d64b0404" name="Jamendo System" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e62616e9-d740-4945-b3cd-3f28df782b81" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6ce0b516-353f-48ea-81ad-b8b98221df97" name="Listen track online" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4d0ab749-aa9e-4c06-8fb8-a87147c14ed6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a011dddb-3f1b-4de9-a2e9-431b4e503f72" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="f0728275-0882-4e22-9257-10cc91ae761a" name="OnJamendo.Modeling">
+    <elementDefinition Id="25f2594a-c95e-48d5-989b-6f10fc1bd686" />
+    <profileInstances>
+      <packageHasProfileInstances Id="4cfb090b-65a3-4fc5-90d3-361538717390">
+        <profileInstance Id="4a1d8196-8291-4c44-a739-9d4ddce4d4e3" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="597573ca-053a-4b25-a11c-23e6a7ef16c3">
+        <profileInstance Id="078ce737-b29d-4c6d-bd13-40c3a1df7a96" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="b9e81635-00bb-4904-bdc5-3c485868d2ab">
+        <profileInstance Id="0c37225d-eff8-47c2-ad45-703491220242" name="CSharpProfile">
+          <elementDefinition Id="e3ac222f-b468-40cc-b810-b7dca974d7b0" />
+        </profileInstance>
+        <elementDefinition Id="4583ceab-9518-4130-a294-f233e95f19bc" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

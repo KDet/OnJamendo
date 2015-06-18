@@ -1,0 +1,15 @@
+Assets\DarkGray.png
+Assets\LightGray.png
+Assets\Logo.png
+Assets\MediumGray.png
+Assets\SmallLogo.png
+Assets\SplashScreen.png
+Assets\StoreLogo.png
+App.xaml
+Common\StandardStyles.xaml
+Common\Styles.xaml
+Controls\Player.xaml
+View\MainPage.xaml
+View\PlayerPage.xaml
+Common\Images\musicCover.jpg
+Common\Images\musicCover2.jpg

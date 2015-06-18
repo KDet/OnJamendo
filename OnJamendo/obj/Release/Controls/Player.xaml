@@ -1,0 +1,31 @@
+﻿<UserControl
+    x:Class="OnJamendo.Controls.Player"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OnJamendo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" >
+    <Grid Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <MediaElement x:Name="MediaEl" Grid.ColumnSpan="4" AudioCategory="BackgroundCapableMedia" />
+        <Button x:Name="PrevBtn" Style="{StaticResource PreviousAppBarButtonStyle}"/>
+        <Button x:Name="PlayButton" Grid.Column="1" Style="{StaticResource AppBarButtonStyle}"/>
+        <Button x:Name="NextBtn" Grid.Column="2" Style="{StaticResource NextAppBarButtonStyle}"/>
+        <Button x:Name="MuteBtn" Grid.Column="3" Style="{StaticResource MuteAppBarButtonStyle}"/>
+        <Slider Grid.ColumnSpan="4" Grid.Row="1" Margin="10,0" Visibility="Collapsed"/>
+       <!-- 
+        <Slider VerticalAlignment="Bottom" Maximum="{Binding CurrentTrack.Duration}" Value="{Binding Position, Converter={StaticResource TimeSpanToDoubleConverter}, ElementName=MediaEl, Mode=TwoWay}" VerticalContentAlignment="Stretch" Grid.ColumnSpan="4" Grid.Row="1" Margin="10,0" />
+        -->
+    </Grid>
+</UserControl>
+

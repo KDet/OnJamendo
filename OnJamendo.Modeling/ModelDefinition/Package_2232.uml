@@ -1,0 +1,2456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="3fd274f8-0522-492f-bde9-ebd4ad586219"
+  name="ViewModel"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="99c8b196-8a46-42f4-a6d7-f41e04deaadc"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DOnJamendo.ViewModel"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="1484d192-d905-457f-a3c3-a7cd7d9a7d03"
+        name="PlayerPageViewModel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="9d693dc0-59f5-4a27-84fd-dc7555a986e7"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DPlayerPageViewModel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3c9eb7c0-0fc8-4e2e-a4aa-d30b0f1cf4dd"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7ac62472-ee20-40f9-ad07-02c0a8e3bf29">
+                <propertyInstance
+                  Id="8224415e-9ff5-4d94-9f2d-a1f714a095ac"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3ec88eeb-ba32-42f9-9b05-e184da858f85">
+                <propertyInstance
+                  Id="c60396d7-4820-472c-bbcf-36c23c6099a7"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a49ffc7a-4c69-42df-9f12-c5fb7999e3da">
+                <propertyInstance
+                  Id="81a8d6a5-0ed9-4f47-99c8-1181cffd8ea6"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5f70d247-b718-40f9-8e2a-7cae32660c7c">
+                <propertyInstance
+                  Id="547ef20b-3ca0-4c04-9511-2723ec0dad96"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b03e7e83-01b4-40bc-9481-51701704bcb3">
+                <propertyInstance
+                  Id="7c2f362c-96b4-419d-896a-8bbe358cc348"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="f500e7a0-901a-4305-acfd-61b96648ff54"
+            isSubstitutable="false">
+            <classMoniker
+              Id="6fc91d0c-79e7-44ae-95ac-6d5619483f59"
+              LastKnownName="BaseViewModel"
+              LastKnownLocation="Package_2232.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="d1bb8870-6886-4415-b337-6e35bfa9720a"
+            isDerived="false"
+            sourceEndRoleName="PlayerPageViewModel"
+            targetEndRoleName="AllTracks"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="3ec0e562-f9df-42d8-ad6a-b95e189f582e"
+              LastKnownName="ObservableCollection&lt;Track‎&gt;"
+              LastKnownLocation="Package5_2232.uml" />
+            <description>Свойство AllTracks ссылается на тип ObservableCollection&lt;Track‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0dd5e54a-25b6-40f2-a4b8-7edde5960173"
+                  name="PlayerPageViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="510180dd-192e-4155-8183-ba9c11bd555a"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="9dc9ddf1-5390-41b9-baaf-803876290735"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="936e080d-b304-45c5-b8e6-6f665c4c7560"
+                  name="AllTracks"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="174177cb-a4f1-4023-a844-b38b8bd72874"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="c985ab9b-ae58-4db6-96f1-3726d6f3c1f8"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="bfca8975-977c-41e8-97e6-cd2201348661"
+            isDerived="false"
+            sourceEndRoleName="PlayerPageViewModel"
+            targetEndRoleName="CurrentTrack"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="470b9336-85d7-4df0-9869-878ede9a5332"
+              LastKnownName="Track"
+              LastKnownLocation="Package1_2227.uml" />
+            <description>Свойство CurrentTrack ссылается на тип Track.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6173ffb7-62fb-4a4d-bba4-b3c512a26666"
+                  name="PlayerPageViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="2e1f1f7d-87ff-460c-8f38-057bbc973a25"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="2600107d-33ed-4827-8c39-8798bbdeee7a"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8fed126b-4ce0-4fea-8a48-36cc4593ff45"
+                  name="CurrentTrack"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="efe9b6d1-60ba-4a53-bd4e-6036e2c2b8e9"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="5de960ad-cd5b-40e3-b274-57cf386e00f3"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="41236c4a-1a41-4e80-974c-3b393dcf065c"
+            name="AllTracks"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8bda100c-7086-492e-8aca-4cdaabaa644b"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DPlayerPageViewModel Member%3DAllTracks"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="87657680-1ea7-49b6-8177-c98b10b335ad"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b001a119-c86b-4e1c-abc7-527b7e9f385b">
+                    <propertyInstance
+                      Id="65ebeea7-3080-451a-9662-20604bb0c75e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="155d41df-95ae-46fe-8e67-e1176924cb1f">
+                    <propertyInstance
+                      Id="f5ea8df9-6a93-44e7-8c8b-cbd5f6adef8e"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11131c40-0b43-4d2b-8ccb-1ece1e42a620">
+                    <propertyInstance
+                      Id="5530668b-ae9c-41d2-8ea3-b70fe8422f01"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="200815a3-d980-47bb-90e9-41d9263d5632">
+                    <propertyInstance
+                      Id="9215a0b8-b607-4d12-a53c-0ae170f07edc"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c01db92-6d03-41aa-8e71-b9c71b17edf8">
+                    <propertyInstance
+                      Id="de6af2e7-9dfe-48f9-a1e6-d5dd0f2e5c56"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3255a148-cfbb-4549-986c-5fc6016a0e09">
+                    <propertyInstance
+                      Id="9b79ff11-f272-4072-9fd2-85fa0b02a3b1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3474936b-3092-4964-a6d4-c8042cb902ae">
+                    <propertyInstance
+                      Id="aa1a4636-8fe7-42ac-a3b0-ac2fbab31e79"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="3ec0e562-f9df-42d8-ad6a-b95e189f582e"
+                LastKnownName="ObservableCollection&lt;Track‎&gt;"
+                LastKnownLocation="Package5_2232.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="33374ba3-62f6-45d7-ac68-e89fab2f412d"
+            name="CurrentTrack"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="3633a255-a7e5-46c2-bfa6-194c3573693c"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DPlayerPageViewModel Member%3DCurrentTrack"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0dbf0168-3d79-403a-a872-4a7f58a2c8aa"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c400f46b-4785-41e3-810d-4c3389680cd7">
+                    <propertyInstance
+                      Id="87adb829-31a3-4a0e-8f98-0cbf65f5b823"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a85ddaf1-7e3c-4b37-bc8d-c52563ea8aa9">
+                    <propertyInstance
+                      Id="15fd036f-bd1d-4b77-991a-d0b5b3bbadb8"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="32d40aac-f391-4c2d-ad31-d7225bd58dcc">
+                    <propertyInstance
+                      Id="daa50e6f-a3a8-43b1-a9a2-4c54e720c094"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8b2708c8-e6d6-4a0d-8485-2bd4eaf888b5">
+                    <propertyInstance
+                      Id="451db086-ff29-4e19-9395-65a96504fbca"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d16100c0-556d-4cb7-b0bd-7dd82c3b1c46">
+                    <propertyInstance
+                      Id="9bdd5592-7edd-41d9-8022-7f50fb0df360"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c12ce19-83f5-40de-844e-45370e1a946a">
+                    <propertyInstance
+                      Id="24ce8d86-61af-41f2-8679-f57644a5afd3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f24d405-2eec-4262-acf2-ce9b402bd1b2">
+                    <propertyInstance
+                      Id="e8ef7879-317c-4393-ba0e-f5a840ccc9a4"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="470b9336-85d7-4df0-9869-878ede9a5332"
+                LastKnownName="Track"
+                LastKnownLocation="Package1_2227.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="57527f98-0784-4875-8984-a5c45b544f1a"
+            name="GetPackedTracksAsync"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e59105ec-7917-4dfd-b94c-52ef1f7a47e0"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DPlayerPageViewModel Member%3D(Name%3DGetPackedTracksAsync OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.Model Type%3DMusicDataContainer)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="26971f97-370a-4100-8351-8de503019feb"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2432b261-5369-4f7b-bd8f-cc9a111c556e">
+                    <propertyInstance
+                      Id="48524015-3b98-425c-ab27-313d54fb486b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a7f7bd57-6acc-409a-97b4-458cebd75f71">
+                    <propertyInstance
+                      Id="88f2a390-2b62-4cf4-836c-1977dc8cf719"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8417d68f-70f3-4772-b57d-638de79ffd2e">
+                    <propertyInstance
+                      Id="c0efc100-0dbb-4e04-90b2-0fc2414b0fc2"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="01512341-6980-4e91-814b-ce77c61a78b6">
+                    <propertyInstance
+                      Id="b48003ac-4fe7-4cc2-9425-48a50a3b1207"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="450b0799-b722-4570-b5b2-91f0ab4082fe">
+                    <propertyInstance
+                      Id="eb7a3be0-ab0e-4802-9d95-55e93d2f7dde"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4e69aea-5dda-481b-b144-0af7572a1c8a">
+                    <propertyInstance
+                      Id="55560e13-101b-4e5a-8b04-0c40620cc353"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7592242a-7743-43cc-8c55-3d516ddff2e3"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="628384a5-da55-4d09-9271-f5dc65c62bc5"
+                      LastKnownName="Task"
+                      LastKnownLocation="Package2_2232.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="954500db-2513-4865-b663-a0314c6f46c1"
+                  name="musicItem"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="cc06ae36-2a95-4ecc-aeaf-718a0f0985d3"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DPlayerPageViewModel Member%3D(Name%3DGetPackedTracksAsync OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.Model Type%3DMusicDataContainer)]) ParameterIdentifier%3DmusicItem"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f54c5a6a-30de-4c5b-9d41-b95f09305a8b"
+                      LastKnownName="MusicDataContainer"
+                      LastKnownLocation="Package1_2227.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f3b10c41-463d-49de-9edc-9c3840da2996"
+            name="GetJsonPackedTracksAsync"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9131bb77-773e-4229-98a1-16f74c7941ad"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DPlayerPageViewModel Member%3D(Name%3DGetJsonPackedTracksAsync OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="598d8328-a31f-4cc2-8312-0428d6ba52db"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be8105be-27ff-4c9c-b7d6-0c3eeddf64d6">
+                    <propertyInstance
+                      Id="a84a5cc4-65af-48f3-a5da-0dd6bcad8a21"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="37352d45-d4c3-4def-bca4-667798f35b6b">
+                    <propertyInstance
+                      Id="7ccf541a-4748-4035-bbe6-246cc192ce3e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="356fcafa-03db-4fe3-a90a-de4cde0f693b">
+                    <propertyInstance
+                      Id="a0d4e14c-9c13-48d7-b0db-079ba12066dd"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="878a96df-cfd9-4bcc-b548-a2f1e5f03953">
+                    <propertyInstance
+                      Id="8ddb6b0d-6899-465c-8d76-def212110303"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c438ad0-3816-4d51-a3bf-32f9d3ccdf59">
+                    <propertyInstance
+                      Id="00cdb3d5-c45f-4a80-b99e-336a54980bcc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8eed136a-4a6f-4846-b204-b8f25a7b4762">
+                    <propertyInstance
+                      Id="cc90157f-d32a-44b8-ad43-aba07643339d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b5c36bdc-7891-472e-9cde-9c401b4761f2"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="628384a5-da55-4d09-9271-f5dc65c62bc5"
+                      LastKnownName="Task"
+                      LastKnownLocation="Package2_2232.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="090ffe5a-cb76-4987-885b-16b2366d823f"
+                  name="musicItem"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="83f1df05-06da-426a-b3d6-0570e0228034"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DPlayerPageViewModel Member%3D(Name%3DGetJsonPackedTracksAsync OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DmusicItem"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="80bfa17b-801b-4268-92ff-c88cd1ebc0b8"
+                      LastKnownName="String"
+                      LastKnownLocation="Package2_2227.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="88141c64-ec0d-472c-8356-6f851092c1ce"
+            name="GetOrRestoreJsonPackedTracksAsync"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1a127c8f-9901-4cfc-b5f2-4245625319ba"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DPlayerPageViewModel Member%3D(Name%3DGetOrRestoreJsonPackedTracksAsync OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Collections.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DObject)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0b918e7a-22aa-4cda-afe4-efd60eb06637"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="36a1ec3d-d448-4c97-8fb1-943596bbe8e2">
+                    <propertyInstance
+                      Id="8b84e2f1-001a-4c9e-8fd2-ae0ded0b41f2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eaeae19c-9488-46ea-88df-d78e7b35a602">
+                    <propertyInstance
+                      Id="8ec2e780-8eab-4bb8-8566-5e06d9b17650"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cae6502f-4b37-4f86-8652-4fad3905418b">
+                    <propertyInstance
+                      Id="5d7a43d7-cd9f-4656-951c-3127d27a78ba"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f4caefaf-cb68-4ab0-9832-11716d098065">
+                    <propertyInstance
+                      Id="0900f90e-58cf-49db-ab79-41e4da1f5342"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a6253d9-2c65-4927-9ea0-20a5073adc28">
+                    <propertyInstance
+                      Id="b0cfce55-4fbb-4069-bac4-d1b21ca70e3e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9f1f613-9c92-4693-9eb9-97a8cf48d7cd">
+                    <propertyInstance
+                      Id="0424d364-e719-4a84-a20d-23d3e4981bb0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8d5e16f2-a4ba-403a-81d3-48321971dc34"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="628384a5-da55-4d09-9271-f5dc65c62bc5"
+                      LastKnownName="Task"
+                      LastKnownLocation="Package2_2232.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c1fe552f-5797-410b-88ac-d407e3c8f91a"
+                  name="jsonParameter"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="57ae9d87-102a-45a2-888f-2aa4e209a6c0"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DPlayerPageViewModel Member%3D(Name%3DGetOrRestoreJsonPackedTracksAsync OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Collections.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DObject)]))]) ParameterIdentifier%3DjsonParameter"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="80bfa17b-801b-4268-92ff-c88cd1ebc0b8"
+                      LastKnownName="String"
+                      LastKnownLocation="Package2_2227.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="91f62e97-c8fb-4b7d-8999-abebfcdc12ea"
+                  name="pageState"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c450b1b0-6465-4fc3-b406-e8a5a3c67d1b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DPlayerPageViewModel Member%3D(Name%3DGetOrRestoreJsonPackedTracksAsync OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Collections.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DObject)]))]) ParameterIdentifier%3DpageState"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4e2317fc-a6b7-4a1b-97f1-5dfac0097c04"
+                      LastKnownName="Dictionary&lt;String‎, Object‎&gt;"
+                      LastKnownLocation="Package4_2232.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="84511a55-cc47-4334-834a-0fa7750ebad3"
+            name="PlayerPageViewModel"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3deab79a-c4f8-4a24-ad26-ecbb162f42ad"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DPlayerPageViewModel Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9dcdf872-6e38-4aa4-a60c-e46c3b47330d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1db7bbf-2b00-4709-afb6-c523514e5135">
+                    <propertyInstance
+                      Id="8918fb68-07da-4e91-a14f-e72d2e37a048"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e8211b49-013d-4dc5-9f51-82af106f3974">
+                    <propertyInstance
+                      Id="909bdfe5-7a4e-4ee5-9691-4d4b0d6f3347"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1dcb817c-e5e3-4acb-975e-f1def2d4f6a9">
+                    <propertyInstance
+                      Id="7a26f903-c58c-48c7-b2c2-dd3870e7f2e8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b712f2ac-98c7-431d-8c11-5290066472b8">
+                    <propertyInstance
+                      Id="289b6178-fe67-4aa6-915a-b22bc6179c0b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5bf22573-4666-48bd-b7ed-26b34997e0ee">
+                    <propertyInstance
+                      Id="60fd5c2c-f28e-44a7-860f-c7cc10714439"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0aea316-332a-449f-ab12-60b9d6e69964">
+                    <propertyInstance
+                      Id="0de40fe3-d06c-4ae7-b2f4-71158227aa25"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6fc91d0c-79e7-44ae-95ac-6d5619483f59"
+        name="BaseViewModel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="9c5bf519-f98c-4b6f-b480-2634222ab089"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DBaseViewModel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="db392470-213b-4707-add4-b8de19f351bf"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8cd8235e-2747-417b-8a35-9129fefc5fd5">
+                <propertyInstance
+                  Id="90221358-1614-45f5-87be-5cb3f4bd08a3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ac886efe-8b50-4d07-a038-ba66d1ed3530">
+                <propertyInstance
+                  Id="51801995-1087-4c2a-8af1-8220abd5abad"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cfa9985e-fc84-4a7b-9990-18e8354b3c8c">
+                <propertyInstance
+                  Id="1f834a8a-a1ec-43db-a25e-bda09b9bd222"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="82abef42-3e66-4b90-8e85-f4ceebaf67e4">
+                <propertyInstance
+                  Id="8278300c-a541-4b7c-9cf1-4481cc06b2f5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="faf82e36-8e5c-45fd-aa94-37e0289dfa9f">
+                <propertyInstance
+                  Id="49665f74-6511-44d1-b56c-9b4f148e8045"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="b668a85e-f468-4911-84a6-afdb140991e8"
+            isSubstitutable="false">
+            <classMoniker
+              Id="6124879a-e601-4ef3-b9f8-42e87b833ce1"
+              LastKnownName="BindableBase"
+              LastKnownLocation="Package3_2227.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="48fd4894-853d-4b30-ab78-d916704bad8d"
+            name="HttpClient"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c157d8d0-543c-4393-b2f7-22efc755f64a"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DBaseViewModel Member%3DHttpClient"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1dcf9c23-1bdd-4518-8fcf-c546a50392ae"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d6f9366-424b-4386-91ec-0e306e975640">
+                    <propertyInstance
+                      Id="927b5fd3-e0bc-4d4f-b68a-9ef6c3841621"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eec22263-013f-4ded-a7e4-28eff6224abb">
+                    <propertyInstance
+                      Id="f5b1da9a-bf96-4774-b827-21d0ae8cff9b"
+                      name="Get"
+                      value="protected" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe2b143e-75eb-4385-99d9-56ffde847600">
+                    <propertyInstance
+                      Id="808011f3-f095-4540-bca6-43cdad3d4ee8"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="423b8534-e4cb-4da6-b9d3-d526274f0191">
+                    <propertyInstance
+                      Id="720b1072-27fc-4e84-900d-bb37da2de84b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5663abf0-1a9a-4a6e-8527-dcf4d0b9fadc">
+                    <propertyInstance
+                      Id="e4f12030-9ac5-44f8-aab5-a04cd8169335"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="845c6650-83e6-45df-97d6-663a50084671">
+                    <propertyInstance
+                      Id="d9cbcee6-0fea-4bfb-8289-4f2da99b4338"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cdde49bb-2ad6-42a5-b4d2-d5d9a021ab4e">
+                    <propertyInstance
+                      Id="d34d954f-bb0d-4eec-8e1a-aaffb90607a2"
+                      name="Set"
+                      value="protected" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="37bf51a9-e459-4126-84f2-a2369f22a9dd"
+                LastKnownName="HttpClient"
+                LastKnownLocation="Package7_2232.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="402dd463-def0-4067-90e5-3fc1bbb33a5f"
+            name="BaseUrl"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f6d856c6-5ee2-4c40-accb-c08bf47e3db5"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DBaseViewModel Member%3DBaseUrl"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="81b1ce7c-c87c-4cf8-90c6-823bfe621468"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="189e406a-f591-478e-ae98-47efce9a50ff">
+                    <propertyInstance
+                      Id="f81e33a0-0667-4bb8-b27e-7c3a2a89eca7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d2ba6211-9e40-4d87-a091-0e8f56673525">
+                    <propertyInstance
+                      Id="8d1729d2-ed31-4291-9ca7-54232477f083"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8fe03156-6ca6-4b0b-9925-76724dbd4c11">
+                    <propertyInstance
+                      Id="67982707-51e9-4cdc-8dbb-88d46df147ee"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e7f2ef87-29de-41fa-aae1-e9cf1352452b">
+                    <propertyInstance
+                      Id="ca48016a-4a83-4211-b936-7d9cd64ee409"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="091e8569-d569-438d-9281-441ceac764c5">
+                    <propertyInstance
+                      Id="4d0dd7c7-131d-4806-94f0-e300655ae734"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="62b8896c-cadd-4339-9aae-b144c136f92c"
+            name="FetchDataAsync‎&lt;T‎&gt;"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="984d68c1-333f-4112-8cd1-5371c6325a27"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DBaseViewModel Member%3D(Name%3DFetchDataAsync GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="762cd61b-a90c-4d59-af9a-c7c535af3104"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0d54a37-2483-4f55-a630-13c02b3f7932">
+                    <propertyInstance
+                      Id="95db010d-bd6a-44d1-aaee-dcb7dd78ba73"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9326e0e8-fe16-451a-90b6-ddb28e7c4bb9">
+                    <propertyInstance
+                      Id="19737be1-a6f3-4353-bc6c-d0a5ec3c3908"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b05d6200-354b-44cc-ac3f-b3fc25fff981">
+                    <propertyInstance
+                      Id="a75e7a93-4fea-46a9-a665-9dc546c90327"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f5bb5290-bf86-4f7b-b544-2954ee95be9a">
+                    <propertyInstance
+                      Id="5f1f28f8-c342-48de-a6f4-6856748b0f1d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a923e6f0-6552-4ef0-92d4-671cd30bcdeb">
+                    <propertyInstance
+                      Id="d8042384-e014-46ba-bd72-9a9c4df55bb4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8cf8e5c0-9d02-47a9-9fb4-dbef13b03e2f">
+                    <propertyInstance
+                      Id="3b82f766-ebd5-45d2-9ed7-69d21de24561"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bcbc2cfb-e93f-4e71-b39e-26cb3728696f"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4bcec076-e7d9-47ea-8201-24d312d751af"
+                      LastKnownName="Task&lt;ObservableCollection‎&lt;T‎&gt;‎&gt;"
+                      LastKnownLocation="Package2_2232.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="16d01f57-f9ea-4706-bdc1-84e69b7ddbcc"
+                  name="query"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="aa621971-7085-4207-91d3-2b6348bd2788"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DBaseViewModel Member%3D(Name%3DFetchDataAsync GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dquery"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="80bfa17b-801b-4268-92ff-c88cd1ebc0b8"
+                      LastKnownName="String"
+                      LastKnownLocation="Package2_2227.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="d93d7030-0952-4fd0-b5ec-53047bd82e7a"
+            name="ResetAlbumSize"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="14c0e724-3713-4b5e-afbf-07587b3529ed"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DBaseViewModel Member%3D(Name%3DResetAlbumSize OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.Model Type%3DTrack)]))%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.Model Type%3DImageSize)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b358f913-f342-461e-bb2a-8225aab12f1a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c7166eca-0fc3-4ad3-ac24-3957697007c3">
+                    <propertyInstance
+                      Id="8e2fb387-b09a-4202-963d-49ad24a66669"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a8a8e32-7d66-4140-8ba2-8d75e720f075">
+                    <propertyInstance
+                      Id="b5735c76-ce9b-44cb-be6f-464e086b9a36"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2bad68d-6fb1-4347-a63f-5b10a7566173">
+                    <propertyInstance
+                      Id="654d9d6b-53ac-45e3-9c50-b5859d915029"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8fbbfb1d-2e34-4432-a938-fb6c2bfe539d">
+                    <propertyInstance
+                      Id="860f0f5d-6e61-41c7-bbdd-8bf45c451737"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cba6df45-eca6-41d0-9d44-321a43d72974">
+                    <propertyInstance
+                      Id="9bf4c8f5-9c15-49e4-82c7-8d4f427812af"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="89eb039d-e09a-4187-85e9-e685430ede86">
+                    <propertyInstance
+                      Id="d6a2f3f6-4391-4a85-adfb-f1a975b704bd"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="160965ee-7c9a-4486-a622-eda0df2d702e"
+                  name="tracks"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4662afb3-3bd8-40a8-86f2-650ba8134224"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DBaseViewModel Member%3D(Name%3DResetAlbumSize OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.Model Type%3DTrack)]))%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.Model Type%3DImageSize)]) ParameterIdentifier%3Dtracks"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="54037e55-02a7-42f2-9ac3-2c738819901d"
+                      LastKnownName="IEnumerable&lt;Track‎&gt;"
+                      LastKnownLocation="Package4_2232.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d21ae94e-35fc-40c6-b35f-3d743ac17dc4"
+                  name="appropriateSize"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="7bb2cfc3-24bd-4c2e-a211-966556eccb45"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DBaseViewModel Member%3D(Name%3DResetAlbumSize OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.Model Type%3DTrack)]))%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.Model Type%3DImageSize)]) ParameterIdentifier%3DappropriateSize"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="32739b90-9398-48c5-a873-6a1e38c988f5"
+                      LastKnownName="ImageSize"
+                      LastKnownLocation="Package1_2227.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f894a74b-ec33-46e0-8058-2f8eaba7b7c6"
+            name="BaseViewModel"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="726dd794-fb8f-4c7b-a598-8b61b7b789c5"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DBaseViewModel Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f05d6b43-28e4-46cd-911c-76d59e7445e9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="928182b4-3fb2-4c74-83fc-243ea003a0a9">
+                    <propertyInstance
+                      Id="ee50ae20-014a-4a5b-80fd-53e14c52a4ac"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ba50f18-1728-4b91-9616-644c336a2ec4">
+                    <propertyInstance
+                      Id="16580ee6-8c2c-4d58-841b-5b8b7e5a747a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="610032b8-369f-4ba5-9313-7682846f8553">
+                    <propertyInstance
+                      Id="08d6125b-5cd4-42e0-aaac-e7a925e69d8f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48f1d67b-7210-4220-8c5c-c14fa1e2571a">
+                    <propertyInstance
+                      Id="bcf0bb92-23a0-4b35-a84b-6faaefdd2020"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f00e3108-71a2-44d3-a8e5-59bf3c804eeb">
+                    <propertyInstance
+                      Id="7c600b47-72fb-4822-be68-5503c24d4c5d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="49dcd16f-ab69-472f-9ee9-cc5d2b81e2c5">
+                    <propertyInstance
+                      Id="e6711978-9a58-4d2a-bf8c-bbc475d9ff9c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="35b013af-d057-4604-b73f-53a9b3186a12"
+        name="MainPageViewModel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="825c90a1-9b44-4a04-81a8-42470a1c3e26"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DMainPageViewModel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a6333093-3f8e-46ab-8ded-64cf2b7ddaec"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="18eb14d8-31da-461d-ae31-5a55d1e6f771">
+                <propertyInstance
+                  Id="b4793bb6-eb1e-4ad8-acef-49ecca9e7eb9"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ddfd7632-66c1-4253-bcba-2ffbd9badbdb">
+                <propertyInstance
+                  Id="82086d12-6f70-4620-85b1-91db0cd67edb"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="09d98229-d20e-483e-b629-e31c547cd32a">
+                <propertyInstance
+                  Id="8d22c09b-1e60-4537-b38f-eba8641d9bb2"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b7fe0304-c399-4f5f-88bc-96fe31231a40">
+                <propertyInstance
+                  Id="6232ebed-c35a-4877-bebd-513160360d58"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6e321018-d514-4757-9452-5790ce3fb806">
+                <propertyInstance
+                  Id="e56ab60f-3b3c-4bd1-ac68-27d84b4f18b9"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="7e09afe4-049f-41ef-87bb-78525ccccba9"
+            isSubstitutable="false">
+            <classMoniker
+              Id="6fc91d0c-79e7-44ae-95ac-6d5619483f59"
+              LastKnownName="BaseViewModel"
+              LastKnownLocation="Package_2232.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="8b001336-786f-45c4-abe7-9070474a4dc2"
+            isDerived="false"
+            sourceEndRoleName="MainPageViewModel"
+            targetEndRoleName="TopTracks"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="3ec0e562-f9df-42d8-ad6a-b95e189f582e"
+              LastKnownName="ObservableCollection&lt;Track‎&gt;"
+              LastKnownLocation="Package5_2232.uml" />
+            <description>Свойство TopTracks ссылается на тип ObservableCollection&lt;Track‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ef4f0544-2096-4e87-9ede-421dfb96e195"
+                  name="MainPageViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="ac73eece-afec-43fc-88c7-af3430951afc"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="2e0a08e9-6978-4bac-9bbf-ffcb0b31f854"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d7534317-7abd-49cc-89f5-cf26622c185e"
+                  name="TopTracks"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="2ecefb57-2667-45f3-9c86-be2de01b0a56"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="de838fdc-f845-4fa4-bae2-5b2d4929815c"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="a1ff330a-1926-44f7-8ff3-a44f798862d8"
+            isDerived="false"
+            sourceEndRoleName="MainPageViewModel"
+            targetEndRoleName="TopAlbums"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="c81a4ad9-6c4a-4c21-b28c-9b535a4dbeec"
+              LastKnownName="ObservableCollection&lt;Album‎&gt;"
+              LastKnownLocation="Package5_2232.uml" />
+            <description>Свойство TopAlbums ссылается на тип ObservableCollection&lt;Album‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9568cc8f-ac4d-458f-a0a8-22aee11eae90"
+                  name="MainPageViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="3c186f14-f453-47d1-9905-0aa4c7781b53"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="5fdc8278-1483-414a-8849-edfa190f2830"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e8945fcf-4b83-4073-be43-3e539053df88"
+                  name="TopAlbums"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="c76ef5de-798a-47f2-9a62-2c66dd48423a"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="d97d75ff-06fc-41d5-8dc8-5c518b8091d8"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="c9398f72-5668-4b09-a9ce-d6e27c3fd4b5"
+            isDerived="false"
+            sourceEndRoleName="MainPageViewModel"
+            targetEndRoleName="TopPlayLists"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="53628190-2eaf-4816-8a1d-57408d0ff9e5"
+              LastKnownName="ObservableCollection&lt;PlayList‎&gt;"
+              LastKnownLocation="Package5_2232.uml" />
+            <description>Свойство TopPlayLists ссылается на тип ObservableCollection&lt;PlayList‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="012757a3-fcd9-46d2-a110-45a3ac78c494"
+                  name="MainPageViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="cc631693-fd5c-4f90-87e9-9664467d848f"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="3f78974f-9263-4915-83aa-bf9824d6bb55"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="291624bc-1d0f-4e8c-b2b8-fba3209d5e62"
+                  name="TopPlayLists"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="882d8e8b-15ee-4a9e-a664-9e717a27d00d"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="ce001bdc-5d24-4236-85a7-c412508f8fb5"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="897f7a43-029a-4e28-92ae-668a40ae3c6f"
+            name="TopTracks"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c86936eb-8e6a-4da4-bed0-ea1054b32b40"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DMainPageViewModel Member%3DTopTracks"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5e7b7fb5-de66-4cfe-899e-a2a84ee748ed"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="256eb8bd-a21e-4223-9c63-f3c115402f6d">
+                    <propertyInstance
+                      Id="bb2774c7-7e8e-4651-92ef-a82b73163551"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8cc353c9-e3b9-4e82-b465-e3af0c381c38">
+                    <propertyInstance
+                      Id="3d9f53df-3f52-4c44-b802-5201a76b5ffa"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="595eac0c-a6c5-4961-b8d4-233d9d50e4f9">
+                    <propertyInstance
+                      Id="58d182af-9d81-429e-90e1-b14ea4e03fe8"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4edab196-90cb-4af8-b34e-586cc2b3f2cd">
+                    <propertyInstance
+                      Id="85ba267a-1bfd-403b-bbce-40d08b358322"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7a84adc-9db1-471c-b0fa-7acf714fedad">
+                    <propertyInstance
+                      Id="1067a15f-3782-4cd6-84bd-e7728e72326c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="822e19d0-0b89-4227-a44a-0f9313b5341a">
+                    <propertyInstance
+                      Id="aa10173b-d6b7-4932-8db7-ca037f117d26"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c82c7522-f2f0-4e15-882c-8fd8a3807758">
+                    <propertyInstance
+                      Id="18f89872-3777-4631-aae4-09828bc2c5e3"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="3ec0e562-f9df-42d8-ad6a-b95e189f582e"
+                LastKnownName="ObservableCollection&lt;Track‎&gt;"
+                LastKnownLocation="Package5_2232.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="beaffd5b-68d6-4739-b2a1-95c4fa313402"
+            name="TopAlbums"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e79e3a80-7c03-46cc-8efe-653bad953644"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DMainPageViewModel Member%3DTopAlbums"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="398a5e96-2de2-4556-bac3-2f5b49057c3e"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b0345b2e-67c0-4cc4-ab85-0b8917cf1af6">
+                    <propertyInstance
+                      Id="bfacb5eb-724a-4092-acd6-cc065c3ff361"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="80bd7950-9aba-4f0b-b682-07e7b3b89329">
+                    <propertyInstance
+                      Id="11d54a6c-26b4-4d0f-aa3a-f38c5f8457ef"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9405714-c4fa-4982-bcbd-c6d25f4d7a76">
+                    <propertyInstance
+                      Id="94ffbaf5-85cd-45a6-83ee-c444b52e9871"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ccfe607-6516-4f8e-ba15-d171a015f589">
+                    <propertyInstance
+                      Id="31fc6d81-cda4-4259-a977-d44bc9494ae5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0d6ab9d-e0c2-4947-8b60-cfb9559b4105">
+                    <propertyInstance
+                      Id="8f1d2241-e363-42ba-ad74-b567ae969d9a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="399a4296-5286-41e6-87a9-d518bcfa6594">
+                    <propertyInstance
+                      Id="14a75d9c-31c7-4dc5-9091-77b3db41cff1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="caad9dd9-14cf-4575-8c69-49426fa68955">
+                    <propertyInstance
+                      Id="2ca5fdff-5f7b-437d-9369-b6698c92daf7"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="c81a4ad9-6c4a-4c21-b28c-9b535a4dbeec"
+                LastKnownName="ObservableCollection&lt;Album‎&gt;"
+                LastKnownLocation="Package5_2232.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="bc1914c4-a07a-452d-b0f1-2dc26d225b2b"
+            name="TopPlayLists"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="98a95316-1425-4b39-bf9f-14b3fe5c90d3"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DMainPageViewModel Member%3DTopPlayLists"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4f6b3d21-e11a-45a1-a762-9585dee3c2a9"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9873e011-4d1c-47c9-9816-3e6ecc9d179f">
+                    <propertyInstance
+                      Id="814b4e70-30c5-4445-833e-4c6722037ffe"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="55670853-f3dc-4642-9114-a9c6c3c1b12d">
+                    <propertyInstance
+                      Id="593f8103-b805-49cf-942a-2c0d772a837a"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64434bf8-a0bd-4ffd-a931-9325c2ed3a8b">
+                    <propertyInstance
+                      Id="02180dc5-c449-4423-9aec-50f3d98e0a71"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ebd55fbd-4378-478b-bb45-36fb495eed94">
+                    <propertyInstance
+                      Id="be227c3e-1042-4eb9-ad4e-71f0adc27e29"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e924e77f-f747-476f-aa25-130fbcf8f2ce">
+                    <propertyInstance
+                      Id="f61fc717-8c95-4be0-99db-5e898cc418eb"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a583b6e-43f6-4356-8227-b7fe828e3bb9">
+                    <propertyInstance
+                      Id="23fc93ce-a9b3-4e0a-a396-866a14256261"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="67526443-b116-4921-93ba-8e367581a294">
+                    <propertyInstance
+                      Id="57858e29-634e-4b15-934c-2539f5b743f2"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="53628190-2eaf-4816-8a1d-57408d0ff9e5"
+                LastKnownName="ObservableCollection&lt;PlayList‎&gt;"
+                LastKnownLocation="Package5_2232.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="b00ecc35-9e81-44a1-8ba8-bb2e0157cba8"
+            name="GetTopTracks"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8fbd1d81-68d3-49f6-9c3d-eadb281e17e0"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DMainPageViewModel Member%3D(Name%3DGetTopTracks OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.Model Type%3DImageSize)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e3b5cfbc-ff40-457e-bacd-81ec8700341c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec5da7a1-4c9e-4241-96ab-2a09fb325a5d">
+                    <propertyInstance
+                      Id="62621441-1b08-4b3c-989c-9563c1055136"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7655d521-0483-4f34-9ed1-ea7fc20e16de">
+                    <propertyInstance
+                      Id="ed39f183-2a27-43fb-8d7b-ac07e1193047"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1dd35d3e-4953-4327-bf40-bb172d47eec6">
+                    <propertyInstance
+                      Id="1049806b-0b26-4744-b9d6-4326b888d2b5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="61f0ce1a-bb1f-4061-b724-1a2d64e746d7">
+                    <propertyInstance
+                      Id="f99f2a00-efd5-4dc5-870b-79b0f29d2693"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7c1cfb4b-6dc8-4724-a245-d2ea37ea1955">
+                    <propertyInstance
+                      Id="6f69edd0-4c1b-4a2e-9676-3affedf2e0be"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ab9b0cc-be21-4743-8f13-4146fab7a8a7">
+                    <propertyInstance
+                      Id="7ad00412-7779-4df4-b3d5-2ea5b6ea5e3f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f22e7c81-3193-4ff8-8916-67ee64d412a2"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="628384a5-da55-4d09-9271-f5dc65c62bc5"
+                      LastKnownName="Task"
+                      LastKnownLocation="Package2_2232.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0b627a16-89ce-4adf-856d-7f92d9fc6775"
+                  name="count"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="2de96fe0-6d8c-4477-9e58-bef0118fa1e5"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DMainPageViewModel Member%3D(Name%3DGetTopTracks OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.Model Type%3DImageSize)]) ParameterIdentifier%3Dcount"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="1f023165-c7f7-4a49-87fc-d6495e563687"
+                      LastKnownName="Int32"
+                      LastKnownLocation="Package2_2227.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="59e3c8ad-69cd-4efe-8a93-94ea8caa9a23"
+                  name="cover"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="43c74e6f-13d9-4ce4-ad1e-13a404760f18"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DMainPageViewModel Member%3D(Name%3DGetTopTracks OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.Model Type%3DImageSize)]) ParameterIdentifier%3Dcover"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="32739b90-9398-48c5-a873-6a1e38c988f5"
+                      LastKnownName="ImageSize"
+                      LastKnownLocation="Package1_2227.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c808761e-6ef4-400f-a2fd-70540781f93b"
+            name="GetTopAlbums"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d00f864b-fa2f-4900-824f-f773f6f578d4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DMainPageViewModel Member%3D(Name%3DGetTopAlbums OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.Model Type%3DImageSize)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a70f60e8-5222-4a28-bf2b-2f4424d7559c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dca51c3a-59da-4670-83b0-95c0a062f2f2">
+                    <propertyInstance
+                      Id="61cb0454-5167-426d-b7ba-4f4c51323812"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dea67c73-81d7-4da3-8bb5-9ac93958f9c5">
+                    <propertyInstance
+                      Id="3351b67f-fa7f-4ba7-ad69-d9911cacfeb5"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0fb66fff-d42c-45f5-b49a-0ea633ac06cb">
+                    <propertyInstance
+                      Id="11fc5f57-0669-42ab-9afb-21d54c510941"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fa49ba76-edc8-42de-b133-26dfee0b6ec8">
+                    <propertyInstance
+                      Id="ba5b102b-9983-4e6d-8532-025c151d4eec"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="998c63b1-6d78-4cb7-9d4b-45f2ae03251e">
+                    <propertyInstance
+                      Id="ed56f28c-8a45-403a-886f-ad006a6015a0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ccbdfc5a-ac4a-471f-b6b9-5ef6cca320c4">
+                    <propertyInstance
+                      Id="e3caa49f-95a3-46f4-ab7d-e96fba57f208"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ecb8039c-0917-45e8-96a0-04c052c314e1"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="628384a5-da55-4d09-9271-f5dc65c62bc5"
+                      LastKnownName="Task"
+                      LastKnownLocation="Package2_2232.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="565ad64d-ead4-4f73-badf-de1e6de8fe54"
+                  name="count"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ad385b2c-87d6-4513-9f48-2edfceebd3e0"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DMainPageViewModel Member%3D(Name%3DGetTopAlbums OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.Model Type%3DImageSize)]) ParameterIdentifier%3Dcount"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="1f023165-c7f7-4a49-87fc-d6495e563687"
+                      LastKnownName="Int32"
+                      LastKnownLocation="Package2_2227.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2164b359-21d9-4cff-bde6-68134ab75198"
+                  name="cover"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b3a32046-154c-4f6b-af14-2454bb58dab0"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DMainPageViewModel Member%3D(Name%3DGetTopAlbums OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.Model Type%3DImageSize)]) ParameterIdentifier%3Dcover"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="32739b90-9398-48c5-a873-6a1e38c988f5"
+                      LastKnownName="ImageSize"
+                      LastKnownLocation="Package1_2227.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3fa2bc35-d0b0-4523-9bb9-bb4dd98ced24"
+            name="GetTopPlayLists"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="21f9b1bf-f2bf-4a04-a5f1-fb7137b538e8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DMainPageViewModel Member%3D(Name%3DGetTopPlayLists OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.Model Type%3DImageSize)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3f27ac90-3b53-4067-a9f0-a7c892445071"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a022765c-d2b4-4504-8757-8ba92e66d4f2">
+                    <propertyInstance
+                      Id="4e3d0170-6fae-402f-9fb3-af4a282d3f19"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a10ed30-09ed-41b2-88c0-8a7ddcec21e2">
+                    <propertyInstance
+                      Id="eba7a297-182a-402c-9a3f-c1d4e8dec108"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8f2b4bf7-7c3e-4721-9ae5-cadfd8873381">
+                    <propertyInstance
+                      Id="4d839ed0-2122-4006-b471-0610fef5d70f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c8e3d2c3-925a-4610-9da2-d650ce148bd2">
+                    <propertyInstance
+                      Id="e94ee990-cefb-4279-8586-a12faae76f0e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="322e192e-e7e8-42f0-9903-664c8641ef13">
+                    <propertyInstance
+                      Id="e75f030b-2a83-4104-bfcc-7ed521d366f0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b87f6160-7868-4080-bb42-45dfb303715a">
+                    <propertyInstance
+                      Id="834bc076-faa1-47b2-bc93-7c0de0d714b4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7dd688b7-7269-4837-a91e-fc58b0aed225"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="628384a5-da55-4d09-9271-f5dc65c62bc5"
+                      LastKnownName="Task"
+                      LastKnownLocation="Package2_2232.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0e14ee60-5f10-4ca6-b2f1-b7e3a1ad2d97"
+                  name="count"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="aae9a273-3b16-48d0-97ab-a2dbdcdb2873"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DMainPageViewModel Member%3D(Name%3DGetTopPlayLists OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.Model Type%3DImageSize)]) ParameterIdentifier%3Dcount"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="1f023165-c7f7-4a49-87fc-d6495e563687"
+                      LastKnownName="Int32"
+                      LastKnownLocation="Package2_2227.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6deb0e0e-9128-4b07-b5e4-2ebe36bfd027"
+                  name="cover"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e356fa26-797b-459d-bf31-5596738c3597"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DMainPageViewModel Member%3D(Name%3DGetTopPlayLists OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.Model Type%3DImageSize)]) ParameterIdentifier%3Dcover"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="32739b90-9398-48c5-a873-6a1e38c988f5"
+                      LastKnownName="ImageSize"
+                      LastKnownLocation="Package1_2227.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="2820a120-d5ac-4360-9af7-6ed1d278179c"
+            name="FetchPlayListImagesAsync"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b672e594-e698-4532-bc5c-f3a0f2c8b89c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DMainPageViewModel Member%3D(Name%3DFetchPlayListImagesAsync OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Net.Http.dll&quot; Namespace%3DSystem.Net.Http Type%3DHttpClient)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.Model Type%3DPlayList)]))%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.Model Type%3DImageSize)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6d047159-01c5-48dd-b4f5-824d62a4e2e7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4bbc85a8-f0e8-45ca-9023-0bb4f33e4373">
+                    <propertyInstance
+                      Id="67735886-dc5a-4b3b-ab19-88b6137655b6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d59b62e6-fcf8-4325-b94a-e4473757cc05">
+                    <propertyInstance
+                      Id="c349aa0c-5362-42c3-9a28-2851b42dd0f2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e042df70-1b12-4fbb-b6d5-9185b82ed5ae">
+                    <propertyInstance
+                      Id="6d6698e3-259c-4606-83a8-8d7e069d51ed"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6fcc1250-4994-4d5e-9979-b5d07752b3c3">
+                    <propertyInstance
+                      Id="6587b606-510d-4e7c-92a5-8f90b90ac9f9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="83e40913-94e5-42da-95c2-65e887a13513">
+                    <propertyInstance
+                      Id="e8c3f75a-d8c9-4011-af14-17e4970cb9f8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8f696249-5303-4bef-908d-db0c4dafa0b1">
+                    <propertyInstance
+                      Id="86bc5b01-b861-4cc6-8b3b-edb003a5a9c0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="df573346-43f2-45bd-9508-dbdf077040e8"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="628384a5-da55-4d09-9271-f5dc65c62bc5"
+                      LastKnownName="Task"
+                      LastKnownLocation="Package2_2232.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d67c4870-6f1f-43c8-926b-119c8805bfae"
+                  name="client"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="78cfa715-81dd-4f9b-9380-7c8041ec42cf"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DMainPageViewModel Member%3D(Name%3DFetchPlayListImagesAsync OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Net.Http.dll&quot; Namespace%3DSystem.Net.Http Type%3DHttpClient)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.Model Type%3DPlayList)]))%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.Model Type%3DImageSize)]) ParameterIdentifier%3Dclient"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="37bf51a9-e459-4126-84f2-a2369f22a9dd"
+                      LastKnownName="HttpClient"
+                      LastKnownLocation="Package7_2232.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="95906b58-3d27-4eca-9c6a-60af01c0cfc0"
+                  name="playLists"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0e2a3451-b156-4fce-a251-a93cc9ef747d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DMainPageViewModel Member%3D(Name%3DFetchPlayListImagesAsync OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Net.Http.dll&quot; Namespace%3DSystem.Net.Http Type%3DHttpClient)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.Model Type%3DPlayList)]))%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.Model Type%3DImageSize)]) ParameterIdentifier%3DplayLists"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="ceea963a-8b8d-4662-85e9-1be1e6a15363"
+                      LastKnownName="IEnumerable&lt;PlayList‎&gt;"
+                      LastKnownLocation="Package4_2232.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="97fbc380-8d1f-4c33-b7d1-ec7c84bc5b6a"
+                  name="imageSize"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="91f3e17c-f64a-43c4-a912-544605d9fb61"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DMainPageViewModel Member%3D(Name%3DFetchPlayListImagesAsync OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Net.Http.dll&quot; Namespace%3DSystem.Net.Http Type%3DHttpClient)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.Model Type%3DPlayList)]))%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.Model Type%3DImageSize)]) ParameterIdentifier%3DimageSize"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="32739b90-9398-48c5-a873-6a1e38c988f5"
+                      LastKnownName="ImageSize"
+                      LastKnownLocation="Package1_2227.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e5badef4-1396-4073-970c-de4390d2b155"
+            name="SetTrackApproximatelyCount‎&lt;T‎&gt;"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="bbba52d1-946c-454f-9fe6-c2f828a82f67"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DMainPageViewModel Member%3D(Name%3DSetTrackApproximatelyCount GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Net.Http.dll&quot; Namespace%3DSystem.Net.Http Type%3DHttpClient)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(ParameterIdentifier%3D0)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="36a363cd-8be2-4dd2-a1d0-4172f6ebe76a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fce7bbd8-9aa0-4ae7-818a-71b6e6fffe41">
+                    <propertyInstance
+                      Id="affacdf6-79ad-4e4b-8f81-6c283e799c2e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="382536fe-b2da-412d-9438-4a3c388138a8">
+                    <propertyInstance
+                      Id="f825dc00-cde6-4c3a-9dbe-5e10979fa0ee"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0732d907-8de2-4d0a-bb26-0e7ebd10a039">
+                    <propertyInstance
+                      Id="3825cfd6-e1a1-486b-9019-61cc42d0e1e3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0cf10c0a-dd5f-43ca-aa8c-32cefd0abf8c">
+                    <propertyInstance
+                      Id="119da8c1-d071-43b4-ad51-0ec7e0f4331e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0094bf9-d894-4a84-a096-7263d1b3ab48">
+                    <propertyInstance
+                      Id="bda4baad-667b-4511-8958-a6c16954437a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="125d552f-2379-4af0-b6d5-9e56d7f0c0dc">
+                    <propertyInstance
+                      Id="261d1209-7778-49c0-b88b-ba4e238e00ab"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="96545e04-ae21-4f36-b29e-ab667bd37ec8"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="628384a5-da55-4d09-9271-f5dc65c62bc5"
+                      LastKnownName="Task"
+                      LastKnownLocation="Package2_2232.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3ace4f1e-a3b4-49e2-802a-a1b890cce1e8"
+                  name="client"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="90f57df4-6e71-4a29-b204-2de51e2c122b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DMainPageViewModel Member%3D(Name%3DSetTrackApproximatelyCount GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Net.Http.dll&quot; Namespace%3DSystem.Net.Http Type%3DHttpClient)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(ParameterIdentifier%3D0)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dclient"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="37bf51a9-e459-4126-84f2-a2369f22a9dd"
+                      LastKnownName="HttpClient"
+                      LastKnownLocation="Package7_2232.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="381ecac8-4c7d-4b3c-94aa-5f77c7ef6eed"
+                  name="list"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="16a02541-309a-47d5-94dd-02c570896e53"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DMainPageViewModel Member%3D(Name%3DSetTrackApproximatelyCount GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Net.Http.dll&quot; Namespace%3DSystem.Net.Http Type%3DHttpClient)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(ParameterIdentifier%3D0)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dlist"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="3e267b21-2148-40d4-8c1d-55a5e076cbef"
+                      LastKnownName="IEnumerable&lt;T‎&gt;"
+                      LastKnownLocation="Package4_2232.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ea29f44e-6ebf-442d-9bf1-f6a20fb23721"
+                  name="approxFrige"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c9ee3114-e2e2-46b0-a9cf-9d00e063e664"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DMainPageViewModel Member%3D(Name%3DSetTrackApproximatelyCount GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Net.Http.dll&quot; Namespace%3DSystem.Net.Http Type%3DHttpClient)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(ParameterIdentifier%3D0)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DapproxFrige"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="1f023165-c7f7-4a49-87fc-d6495e563687"
+                      LastKnownName="Int32"
+                      LastKnownLocation="Package2_2227.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="bff8299a-086d-47e0-ade1-ed20dc68a25b"
+            name="MainPageViewModel"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="015fbdd5-bfdf-4b90-91c6-f34345d975bf"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DMainPageViewModel Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="47adbf40-4cdc-4d97-ba61-0cdf75bda3e2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d6a1ca07-f3b6-4909-91f9-5da4cf3f66eb">
+                    <propertyInstance
+                      Id="4a73e8be-a041-427c-9c77-cc8738feaa26"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ddf64541-55d1-4de0-932b-4c321e934a42">
+                    <propertyInstance
+                      Id="5ed5b1df-e659-43f9-94fd-339c8ae360e5"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="94ca2c44-b14b-40ae-b28a-a72eb32e12b9">
+                    <propertyInstance
+                      Id="31d28a27-fa6c-4e4b-bd75-ebbb8c4601d8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="43273829-fbba-4f11-8964-42063ed0b586">
+                    <propertyInstance
+                      Id="ffd0cb65-2bab-4941-8582-c652ff870547"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ee12031-87a2-4893-b37c-7bfe5e58aeb6">
+                    <propertyInstance
+                      Id="18e83458-b94f-4eee-a3aa-312a5a4a6cde"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5679ee20-49f8-4d19-835b-7a611523f2f3">
+                    <propertyInstance
+                      Id="d71bb8e1-0160-4ac1-9975-7f7bcaf4120b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="cc2bdcfc-cf89-4ae8-bb0b-0ef79a445fd1"
+        name="T">
+        <referencesInternal>
+          <reference
+            Id="4fc1529e-117d-4f31-9870-48325af0cb3a"
+            handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FE:%2FCopy%2FProjects%2FOnJamendo%2FOnJamendo%2Fbin%2FDebug%2FOnJamendo.exe Namespace%3DOnJamendo.ViewModel Type%3DMainPageViewModel Member%3D(Name%3DSetTrackApproximatelyCount GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Net.Http.dll&quot; Namespace%3DSystem.Net.Http Type%3DHttpClient)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(ParameterIdentifier%3D0)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3D0"
+            tag="ViewCode" />
+        </referencesInternal>
+      </undefinedType>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
